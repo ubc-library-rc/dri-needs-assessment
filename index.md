@@ -5,26 +5,42 @@ title: Digital Research Infrastructure Report
 
 ## Executive Summary
 
-From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched a survey to investigate UBC researchers’ needs in 25 distinct areas relating to data, software, and computational training and support (see full details of survey in Appendix X.), receiving 241 total responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights in these areas.
+Digital Research Infrastructure refers to a suite of services that enables the collection, processing, dissemination and disposition of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one's research data.
 
-Training was defined as: single workshops, workshop series, online modules/videos, and formal courses
-Support was define as: web resources, consultations, advising, troubleshooting, and recommendations
+As traditionally non computational disciplines increasingly rely on digital methodologies or approaches and computationally centric disciplines need to navigate increasingly large and complex computational environments, there is a growing and wide spread need to support the infrastructural needs of these research projects as well as to ensure that practitioners have the skillsets required to engage in these activities.
 
-This report will only focus on those areas in which UBC ARC was sought for training or support.
+For non-traditionally computational disciplines, it is anticipated that training outside of one's degree program may be needed. For computationally centric disciplines, it is anticipated that shared resources that enable high performance computing will be required and that opportunities for training on novel systems may be needed.
+
+To investigate these needs, the DRI Needs Assessment Survey ran from May 17th - June 12, 2021. The survey was jointly undertaken by Advanced Research Computing, UBC Vancouver Library, and UBC Okanagan Library. A Total of 241 responses were received from faculty, post docs, and graduate students. A full spectrum of disciplines were covered including Medicine, Ecology, Digital Humanities, Engineering, and Management. The survey investigated UBC researchers' needs in 25 distinct areas relating to data, software, and computational training and support. Following the survey, 3 focus groups were conducted with a subset of participants to gain additional insight.
+
+## Definitions
+
+**Training** Single workshops, workshop series, online modules/videos, and formal courses
+
+**Support** Web resources, consultations, advising, troubleshooting, and recommendations
 
 ## Key Findings
 
-The majority of researchers wanted training and support but didn’t know they were available (Figure X)
-Training and support relevant to ARC is also sought from several other units (Figure X)
-Participants in focus groups noted that finding the right service is challenging, and a centralized portal would be beneficial 
+A significant portion of the respondents who self identified as needing or wanting additional support or training were unaware of many of the training and support opportunities available to them and their research teams at UBC. Additionally, for those who sought additional support and training from within UBC, many turned to a mix of units and departments, including the Library, ARC, ORS, CIO, and UBC IT. Participants in focus groups noted that finding the right service is challenging, and a centralized portal would be beneficial.
+
+<div class="figure">Fig 1.</div>
+
+<div class="figure">Fig 2.</div>
+
+<div class="figure">Fig 3.</div>
+
+<div class="figure">Fig 4.</div>
 
 ## Recommendations
 
-Coordinate communications with other portfolios, faculties, and departments, to ensure that all researchers who want a service know it exists and where to find it
-Coordinate services with other portfolios and groups who provide similar services, to maximize efforts and reduce duplication
-Coordinate with other portfolios and groups to build a central portal to discover services
+These findings suggest that
+
+* Awareness of training and supports could be enhanced;
+* Collaborative efforts at addressing DRI supports and training across units and departments could offer a more seamless and informed delivery of DRI supports and training.
 
 ## Reports
+
+The 25 areas of DRI queried have been split into 4 individual reports, detailing if supports and training were needed and where they were sought. Each report is catered to a specific unit and represents core areas of service delivery within each of those units. 
 
 <div class="reportButton arc">
   <a href="">ARC</a>
