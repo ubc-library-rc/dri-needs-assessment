@@ -1,4 +1,9 @@
-# Executive Summary
+---
+permalink: /
+title: Digital Research Infrastructure Report
+---
+
+## Executive Summary
 
 From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched a survey to investigate UBC researchers’ needs in 25 distinct areas relating to data, software, and computational training and support (see full details of survey in Appendix X.), receiving 241 total responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights in these areas.
 
@@ -18,3 +23,21 @@ Participants in focus groups noted that finding the right service is challenging
 Coordinate communications with other portfolios, faculties, and departments, to ensure that all researchers who want a service know it exists and where to find it
 Coordinate services with other portfolios and groups who provide similar services, to maximize efforts and reduce duplication
 Coordinate with other portfolios and groups to build a central portal to discover services
+
+## Reports
+
+<div class="reportButton arc">
+  <a href="">ARC</a>
+</div>
+
+<div class="reportButton library">
+  <a href="">Library</a>
+</div>
+ 
+<div class="reportButton ors">
+  <a href="">ORS</a>
+</div>
+
+<div class="reportButton it">
+  <a href="">IT</a>
+</div>
