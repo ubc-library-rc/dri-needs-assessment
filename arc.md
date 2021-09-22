@@ -1,3 +1,7 @@
+---
+title: ARC
+---
+
 ## Survey highlights
 
 Top 3 areas in which researchers sought training from ARC (Figure X for full details)
