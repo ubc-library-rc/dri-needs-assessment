@@ -1,0 +1,35 @@
+---
+---
+
+@import "minima";
+
+.reportButton {
+  width: 23%;
+  margin: 1%;
+  float: left;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 24px;
+}
+
+.arc {
+  background-color: #002145;
+}
+
+.library {
+  background-color: #97D4E9;
+}
+
+.ors {
+  background-color: #6EC4E8;
+}
+
+.it {
+  background-color: #40B4E5;
+}
+
+.reportButton a, .reportButton a.link, .reportButton a.visited, .reportButton a.hover, .reportButton a.active {
+  color: #fff;
+  text-decoration: none;
+}
+
