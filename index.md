@@ -23,13 +23,17 @@ To investigate these needs, the DRI Needs Assessment Survey ran from May 17th - 
 
 A significant portion of the respondents who self identified as needing or wanting additional support or training were unaware of many of the training and support opportunities available to them and their research teams at UBC. Additionally, for those who sought additional support and training from within UBC, many turned to a mix of units and departments, including the Library, ARC, ORS, CIO, and UBC IT. Participants in focus groups noted that finding the right service is challenging, and a centralized portal would be beneficial.
 
-<div class="figure">Fig 1.</div>
+<div class="figure">Fig 1. Need for support</div>
+![Overall need for support](graphs/overall_support.png)
 
-<div class="figure">Fig 2.</div>
+<div class="figure">Fig 2. Places support is sought</div>
+![Overall places support is sought](graphs/overall_supportWhere.png)
 
-<div class="figure">Fig 3.</div>
+<div class="figure">Fig 3. Need for training</div>
+![Overall need for training](graphs/overall_training.png)
 
-<div class="figure">Fig 4.</div>
+<div class="figure">Fig 4. Places training is sought</div>
+![Overall places training is sought](graphs/overall_trainingWhere.png)
 
 ## Recommendations
 

@@ -1,0 +1,386 @@
+---
+title: 'Graphs for DRI Needs Assessment report'
+author: 'Jeremy Buhler'
+date: 'Sep 27, 2021'
+output: html_document
+---
+
+## Install/load packages
+Check for required packages, install if needed
+
+```{r}
+list.of.packages <- c("dplyr","tibble","tidyr","tidyselect","ggplot2","stringr","forcats","RColorBrewer")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+```
+
+Load required packages
+  
+```{r}
+library(dplyr)
+library(tibble)
+library(tidyr)
+library(tidyselect)
+library(ggplot2)
+library(stringr)
+library(forcats)
+library(RColorBrewer)
+```
+
+
+## Import source files
+
+  - DRI_survey_results_20210927.csv __(output as downloaded from Qualtrics with default export settings)__
+  - DRI_survey_spam_ids.csv __(list of ResponseIDs previously identified as spam)__
+
+```{r}
+responses <- read.csv('../DRI_survey_results_20210927.csv')
+spam <- read.csv('../DRI_survey_spam_ids.csv')
+```
+
+## Remove first two non-header rows
+Qualtrics exports include three header rows; we only need the first *CAUTION: run only once; each time it runs the first two records of the `responses` dataframe are deleted.*
+
+```{r}
+responses <- slice(responses, -1:-2)
+```
+
+## Remove records identified as spam
+
+```{r}
+spam_removed <- anti_join(responses, spam, by="ResponseId" )
+```
+
+## Remove variables
+Remove variables that aren't required for the graphs:
+
+  - survey metadata (i.e. all variables that don't start with "Q#")
+  - personal information (Q29, Q31, etc.)
+  - variables with the same value in all responses (e.g. where *no one* provided a response)
+  - "please specify" fields used by respondents who select "Other"
+
+```{r}
+variables_removed <- spam_removed %>%
+  select(matches("^Q\\d")) %>%
+  select(-(one_of("Q29","Q31","Q32_1","Q32_2"))) %>%
+  select_if(~!n_distinct(.) < 2) %>%
+  select(-matches("TEXT"))
+```
+
+## Add identifier variable (unique respondent ID not linked to Qualtrics)
+
+```{r}
+variables_removed <- rowid_to_column(variables_removed, var="id")
+```
+
+## Pivot from wide to long
+The export from Qualtrics has one row per respondent, with columns for each question and for each *option* in "select all that apply" questions. Graphing is easier if the data is normalized with each question on its own row. In this process we also split some questions into two variables. For example, a case where the "SupportWhere_Machine learning" variable has a value of "UBC IT" will look like this:
+
+  | variable name | value            |
+  | ---           | ---              |
+  | question      | SupportWhere     |
+  | item          | Machine learning |
+  | response      | UBC IT           |
+  
+### Step 1: Pivot 
+```{r}
+pivot <- variables_removed %>%
+  pivot_longer(
+    cols = matches("_"),
+    names_to = "question",
+    values_to = "response"
+  )
+```
+
+### Step 2: Split
+```{r}
+pivot2 <- pivot %>%
+  separate(question, c("question","item"),"_", remove = TRUE)
+```
+
+### Step 3: Rename values in new columns
+```{r}
+pivot3 <- pivot2 %>%
+  mutate(question = case_when(
+                        question == "Q18"   ~ "Support",
+                        question == "Q19.1" ~ "SupportWhere",
+                        question == "Q19.2" ~ "SupportSatisfaction",
+                        question == "Q17"   ~ "Training",
+                        question == "Q22.1" ~ "TrainingWhere",
+                        question == "Q22.2" ~ "TrainingSatisfaction"
+  )) %>%
+  
+  mutate (item = case_when(
+                        item == '1' ~ 'Project management',
+                        item == '2' ~ 'Study/data design',
+                        item == '3' ~ 'Data management plan',
+                        item == '4' ~ 'Data destruction',
+                        item == '5' ~ 'Active data storage',
+                        item == '6' ~ 'Data transfer',
+                        item == '7' ~ 'Data deposit/preservation',
+                        item == '8' ~ 'Coding/programming',
+                        item == '9' ~ 'Visualization',
+                        item == '10' ~ 'Machine learning',
+                        item == '11' ~ 'GIS',
+                        item == '12' ~ 'Database/app development',
+                        item == '13' ~ 'Digital sustainability',
+                        item == '14' ~ 'Survey development',
+                        item == '15' ~ 'Analysis & statistics',
+                        item == '16' ~ 'Ethics compliance',
+                        item == '17' ~ 'Privacy',
+                        item == '18' ~ 'Security',
+                        item == '19' ~ 'Data/research agreements',
+                        item == '20' ~ 'Funding',
+                        item == '21' ~ 'Inter-institution collab.',
+                        item == '22' ~ 'Hardware purchasing',
+                        item == '23' ~ 'Contributed systems',
+                        item == '24' ~ 'High perf. computing',
+                        item == '25' ~ 'Cloud computing',
+                        item == '26' ~ 'Other'
+  ))
+```
+
+
+## Create dataframes for graphs
+
+ - create `short_response` field for legends
+ - remove `other` fields
+ - Identify set of responses that items in graph should be sorted by (these are assigned value of "1" in the `sort_include` variable)
+ - order `short_response` levels for desired graph order
+
+### Create support and training subsets
+```{r}
+graph_data <- pivot3 %>%
+  mutate(short_response = str_match(response, "(.*)(support|training)")[,1]) %>%
+  drop_na(short_response) %>%
+  filter(item != "Other") %>%
+  mutate(sort_include = if_else(str_starts(short_response,"I would have liked")|str_starts(short_response, "I sought additional"),1,0))
+
+graph_support <- graph_data %>%
+  filter(question == "Support")
+
+graph_training <- graph_data %>%
+  filter(question == "Training")
+```
+
+# Units for which graphs are required
+```{r}
+unit <- c("UBC ARC", "UBC Library", "UBC IT", "UBC REB", "UBC ORS", "UBC IPO")
+```
+
+
+# Unit-specific support graphs
+```{r}
+for (i in unit) {
+
+# create subset for SupportWhere graphs
+graph_sw <- pivot3 %>%
+  filter(question == "SupportWhere", item != "Other", response != "") %>%
+  mutate(short_response = case_when(
+       str_detect(response, paste0(".*",i,".*")) ~ i,
+       str_detect(response,"Support outside UBC", negate = TRUE) ~ "Other UBC unit/dept",
+       TRUE ~ "Outside UBC")) %>%
+    mutate(sort_include = 1)
+
+# reorder levels so selected "unit" is always the same color (otherwise color is assigned alphabetically)
+graph_sw$short_response <- factor(graph_sw$short_response, levels = c("Outside UBC","Other UBC unit/dept",i))
+
+# create list of `items` where at least one person sought support from selected unit 
+unit_subset <- graph_sw %>%
+  filter(short_response == i) %>%
+  select(item) %>%
+  distinct()
+
+# for support graphs, `item` ordered by totals of `sort_include` variable
+graph_support$item <- fct_reorder(graph_support$item,graph_support$sort_include,sum)
+
+# generate support graphs
+output_support <- graph_support %>% 
+  filter(item %in% unit_subset$item) %>%
+  group_by(item,short_response) %>%
+  drop_na(short_response) %>%
+  ggplot(
+    aes(y=item, fill=short_response))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Support by topic", subtitle = "Including web resources, consultations, troubleshooting, recommendations", caption=paste("Limited to topics for which 1 or more respondents sought support from",i))+
+    scale_fill_brewer(palette = "Greens")+
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060"))
+
+ggsave(paste0("graphs/",str_replace(i," ","_"),"_support.png"))
+print(output_support)
+
+# generate supportWhere graphs
+output_sw <- graph_sw %>% 
+  filter(short_response != "NA/blank") %>%
+  filter(item %in% unit_subset$item) %>%
+  group_by(item,short_response) %>%
+  ggplot(
+    aes(y=fct_rev(fct_infreq(item)), fill=short_response))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Places support is sought, by topic", caption=paste("Limited to topics for which 1 or more respondents sought support from",i))+
+    scale_fill_brewer(palette = "Blues")+
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060"))
+
+ggsave(paste0("graphs/",str_replace(i," ","_"),"_supportWhere.png"))
+print(output_sw)
+}
+```
+
+# Unit-specific training graphs
+```{r}
+for (i in unit) {
+
+# create subset for TrainingWhere graphs
+graph_tw <- pivot3 %>%
+  filter(question == "TrainingWhere", item != "Other", response != "") %>%
+  mutate(short_response = case_when(
+       str_detect(response, paste0(".*",i,".*")) ~ i,
+       str_detect(response,"Training outside UBC", negate = TRUE) ~ "Other UBC unit/dept",
+       TRUE ~ "Outside UBC")) %>%
+    mutate(sort_include = 1)
+
+# reorder levels so selected "unit" is always the same color (otherwise color is assigned alphabetically)
+graph_tw$short_response <- factor(graph_tw$short_response, levels = c("Outside UBC","Other UBC unit/dept",i))
+
+# create list of `items` where at least one person sought support from selected unit 
+unit_subset <- graph_tw %>%
+  filter(short_response == i) %>%
+  select(item) %>%
+  distinct()
+
+# for training graphs, `item` ordered by totals of `sort_include` variable
+graph_training$item <- fct_reorder(graph_training$item,graph_training$sort_include,sum)
+
+# generate support graphs
+output_training <- graph_training %>% 
+  filter(item %in% unit_subset$item) %>%
+  group_by(item,short_response) %>%
+  drop_na(short_response) %>%
+  ggplot(
+    aes(y=item, fill=short_response))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Training by topic", subtitle = "Includes workshops, online modules, and courses", caption=paste("Limited to topics for which 1 or more respondents sought training from",i))+
+    scale_fill_brewer(palette = "Oranges")+
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060"))
+
+ggsave(paste0("graphs/",str_replace(i," ","_"),"_training.png"))
+print(output_training)
+
+# generate trainingWhere graphs
+output_tw <- graph_tw %>% 
+  filter(short_response != "NA/blank") %>%
+  filter(item %in% unit_subset$item) %>%
+  group_by(item,short_response) %>%
+  ggplot(
+    aes(y=fct_rev(fct_infreq(item)), fill=short_response))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Places training is sought, by topic", caption=paste("Limited to topics for which 1 or more respondents sought training from",i))+
+    scale_fill_brewer(palette = "Purples")+
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060"))
+
+ggsave(paste0("graphs/",str_replace(i," ","_"),"_trainingWhere.png"))
+print(output_tw)
+}
+```
+
+### support overall graph
+
+```{r fig.width = 5, fig.height= 2}
+# set custom palette so colors match other graphs in the report
+custom_greens <- brewer.pal(3,"Greens")[2:3]
+
+graph_support %>% 
+  group_by(id,short_response) %>%
+  summarise(.groups="drop_last") %>%
+  filter(short_response == "I would have liked support" | short_response == "I sought additional support") %>%
+  ggplot(
+    aes(y=short_response, fill=short_response,))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Overall need for support", caption = "Respondents who selected these options for at least one type of support")+
+    scale_fill_manual(values = custom_greens) +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.caption=element_text(size=9,color='#808080',margin=margin(15,0,0,0)), legend.position = "none")
+
+ggsave(paste0("graphs/overall_support.png"))
+```
+
+### Training overall graph
+
+```{r fig.width = 5, fig.height= 2}
+# set custom palette so colors match other graphs in the report
+custom_oranges <- brewer.pal(3,"Oranges")[2:3]
+
+graph_training %>% 
+  group_by(id,short_response) %>%
+  summarise(.groups="drop_last") %>%
+  filter(short_response == "I would have liked training" | short_response == "I sought additional training") %>%
+  ggplot(
+    aes(y=short_response, fill=short_response,))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Overall need for training", caption = "Respondents who chose these selections for at least one type of training" )+
+    scale_fill_manual(values = custom_oranges) +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), aspect.ratio = 1/4, legend.position = "none", plot.caption=element_text(size=9,color='#808080',margin=margin(15,0,0,0)))
+
+ggsave(paste0("graphs/overall_training.png"))
+```
+
+## Overall SupportWhere graph
+
+```{r fig.width = 5, fig.height= 2}
+
+# create subset and assign "short_response" variable
+graph_sw_overall <- pivot3 %>%
+  filter(question == "SupportWhere", response != "") %>%
+  mutate(short_response = case_when(
+       response == "Support outside UBC" ~ "Outside UBC",
+       TRUE ~ "UBC unit/dept")) 
+
+# reorder factors for desired order
+graph_sw_overall$short_response <- factor(graph_sw_overall$short_response, levels = c("Outside UBC", "UBC unit/dept"))
+
+# set custom palette so colors match other graphs in the report
+custom_blues <- brewer.pal(3,"Blues")
+ 
+# create graph
+ graph_sw_overall %>% 
+  group_by(id,short_response) %>%
+  summarise(.groups="drop_last") %>%
+  ggplot(
+    aes(y=short_response, fill=short_response,))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Overall places support is sought")+
+    scale_fill_manual(values = custom_blues) +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), aspect.ratio = 1/4, legend.position = "none", plot.caption=element_text(size=9,color='#808080',margin=margin(15,0,0,0)))
+ 
+ggsave(paste0("graphs/overall_supportWhere.png"))
+```
+
+## Overall TrainingWhere graph
+
+```{r fig.width = 5, fig.height= 2}
+
+# create subset and assign "short_response" variable
+graph_tw_overall <- pivot3 %>%
+  filter(question == "TrainingWhere", response != "") %>%
+  mutate(short_response = case_when(
+       response == "Training outside UBC" ~ "Outside UBC",
+       TRUE ~ "UBC unit/dept")) 
+
+# reorder factors for desired order
+graph_tw_overall$short_response <- factor(graph_tw_overall$short_response, levels = c("Outside UBC", "UBC unit/dept"))
+
+# set custom palette so colors match other graphs in the report
+custom_purples <- brewer.pal(3,"Purples")
+ 
+# create graph
+ graph_tw_overall %>% 
+  group_by(id,short_response) %>%
+  summarise(.groups="drop_last") %>%
+  ggplot(
+    aes(y=short_response, fill=short_response,))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Overall places training is sought")+
+    scale_fill_manual(values = custom_purples) +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), aspect.ratio = 1/4, legend.position = "none", plot.caption=element_text(size=9,color='#808080',margin=margin(15,0,0,0)))
+ 
+ggsave(paste0("graphs/overall_trainingWhere.png"))
+```
