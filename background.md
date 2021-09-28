@@ -1,1 +1,1 @@
-## Background & Methods
+## Background
