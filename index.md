@@ -9,7 +9,7 @@ Digital Research Infrastructure (DRI) refers to a suite of services that enables
 
 From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched the DRI Needs Assessment Survey to investigate UBC researchers’ needs in 25 distinct areas relating to DRI (see full details of survey [insert link]), receiving 241 total responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights in these areas.
 
-<span style="font-size:0.8em;">The buttons below to subreports tailored to the corresponding portfolio.</span>
+<span style="font-size:0.8em;">The buttons below link to subreports tailored to the corresponding portfolio.</span>
 
 <div class="reportButton arc">
   <a href="arc.html">ARC</a>
