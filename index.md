@@ -9,7 +9,7 @@ Digital Research Infrastructure (DRI) refers to a suite of services that enables
 
 From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched the DRI Needs Assessment Survey to investigate UBC researchers’ needs in 25 distinct areas relating to DRI (see full details of survey [insert link]), receiving 241 total responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights in these areas.
 
-<span style="font-size:0.8em;">The above buttons below to subreports tailored to the corresponding portfolio.</span>
+<span style="font-size:0.8em;">The buttons below to subreports tailored to the corresponding portfolio.</span>
 
 <div class="reportButton arc">
   <a href="arc.html">ARC</a>
@@ -27,15 +27,19 @@ From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC
   <a href="it.html">IT</a>
 </div>
 
+
 ## Definitions
 
 **Training** Single workshops, workshop series, online modules/videos, and formal courses
 
 **Support** Web resources, consultations, advising, troubleshooting, and recommendations
 
-## Key Findings
 
-A significant portion of the respondents who self identified as needing or wanting additional support or training were unaware of many of the training and support opportunities available to them and their research teams at UBC. Additionally, for those who sought additional support and training from within UBC, many turned to a mix of units and departments, including the Library, ARC, ORS, CIO, and UBC IT. Participants in focus groups noted that finding the right service is challenging, and a centralized portal would be beneficial.
+## Key Findings & Recommendations
+
+
+_Finding 1_: A significant portion of respondents reported wanted training and support, but didn't know they were available;
+_Recommendation 1_: **Coordinate and strategize communications** across portfolios and departments to ensure that researchers are able to easily find and access services;
 
 <img class="figure-main" alt="Need for support/training" src="graphs/overall_support-training.png">
 
