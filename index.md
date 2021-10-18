@@ -35,12 +35,13 @@ From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC
 **Support** Web resources, consultations, advising, troubleshooting, and recommendations
 
 
+
 ## Key Findings & Recommendations
 
 
-_Finding 1_: A significant portion of respondents reported wanted training and support, but didn't know they were available;
+**Finding 1**: A significant portion of respondents reported wanted training and support, but didn't know they were available;
 
-_Recommendation 1_: **Coordinate and strategize communications** across portfolios and departments to ensure that researchers are able to easily find and access services;
+**Recommendation 1**: **Coordinate and strategize communications** across portfolios and departments to ensure that researchers are able to easily find and access services;
 <img class="figure-main" alt="Need for support/training" src="graphs/overall_support-training.png">
 
 <img class="figure-main" alt="Places support/training is sought" src="graphs/overall_where_support-training.png">
