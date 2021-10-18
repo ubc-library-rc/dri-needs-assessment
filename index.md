@@ -36,6 +36,7 @@ From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC
 
 
 
+
 ## Key Findings & Recommendations
 
 
@@ -44,19 +45,25 @@ From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC
 **Recommendation 1**: **Coordinate and strategize communications** across portfolios and departments to ensure that researchers are able to easily find and access services;
 <img class="figure-main" alt="Need for support/training" src="graphs/overall_support-training.png">
 
+
+**Finding 2**: 
 <img class="figure-main" alt="Places support/training is sought" src="graphs/overall_where_support-training.png">
 
 <img class="figure-main" alt="Number of places support/training is sought" src="graphs/overall_number_of_places_support-training.png">
 
-## Recommendations
 
-These findings suggest that
-
-* Awareness of training and supports could be enhanced;
-* Collaborative efforts at addressing DRI supports and training across units and departments could offer a more seamless and informed delivery of DRI supports and training.
 
 ## Reports
 
 The 25 areas of DRI queried have been split into 4 individual reports, detailing if supports and training were needed and where they were sought. Each report is catered to a specific unit and represents core areas of service delivery within each of those units. 
+
+
+
+### Full Report
+
+## Introduction
+
+
+
 
 
