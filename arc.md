@@ -10,13 +10,13 @@ For the purpose of this sub-report, the content will be limited to the DRI categ
 ### Top Reasons People Come to ARC
 
 
-_Top 3 areas in which researchers sought support from ARC (Figure X for full details)_
+_Top 3 areas in which researchers **sought support from ARC **(Figure X for full details)_
 
 1. High-Performance Computing: 38% of researches who sought support went to ARC
 2. Active Data Storage: 21% of researches who sought support went to ARC
 3. Data Retention/Deposit/Preservation: 23% of researchers who sought support went to ARC
 
-_Top 3 areas in which researchers sought training from ARC (Figure X for full details)_
+_Top 3 areas in which researchers **sought training from ARC** (Figure X for full details)_
 
 1. High-Performance Computing: 35% of researchers who sought training went to ARC
 2. Coding/Programming:  15% of researches who sought training went to ARC
