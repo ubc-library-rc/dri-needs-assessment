@@ -58,7 +58,7 @@ The 25 areas of DRI queried have been split into 4 individual reports, detailing
 ## **Full Report**
 
 
-### Introduction
+### **Introduction**
 
 **Background**
 
@@ -83,7 +83,7 @@ RDM and DRI have considerable overlap; and supporting each spans multiple depart
 In order to ensure that the needs of our research community are being met in an era of rapid development and change, the UBC DRI Needs Assessment sought to investigate the training and support needs of researchers in relation to DRI.  These findings, used in conjunction with the researcher feedback being solicited by the UBC RDM Steering Committee, can help in identifying current gaps and vacancies in our institutional service offerings, and be used to inform the future desired state of DRI services at UBC. 
 
 
-### Methods
+### **Methods**
 
 This assessment was a joint effort between UBC Advanced Research Computing (ARC) and UBC Library.  The assessment consisted of two elements -  a survey and three follow-up focus groups. 
 
@@ -101,7 +101,7 @@ One of the final survey questions asked whether participants would be willing to
 
 The DRI Needs Assessment Survey was designed to scope out awareness and need for support and training in DRI. While free text fields allowed for respondents to provide additional qualitative feedback, the bulk of the survey focused on what was sought or needed and less on why or at what level or modality these training and supports were needed or not needed. While the focus groups allowed a deeper dive into these issues, the pool of focus group participants represents a sample biased by both size and discipline. Consequently, while this survey is able to report on the degree to which DRI training and support are used, known about, or sought  
 
-### Results
+### **Results**
 
 **Demographics**
 
@@ -160,7 +160,7 @@ Figure X. Focus Group Quotes Regarding the Frequency of Training Offerings
 “I think that tutorial packages with examples are by far the best way [for me to learn] ... But I know that other people do have different needs and I think that     having direct feedback and being able to ask a human being questions is useful for some people.” 
     
  
-### Discussion and Next Steps
+### **Discussion and Next Steps**
 
 The substantial number of respondents wanting training or support, but not knowing they are available, indicates that DRI services are not being adequately communicated to the research community.  Of particular note is that there is not one single portfolio or area where this is prevalent, but rather, this seems to be a trend that spans the institution and all areas of DRI outlined in the survey.  While there is no definitive explanation as to why current communication efforts may not be effective, these findings suggest that DRI resources across UBC may be underutilized due to a lack of researcher awareness.  Acknowledging that this an institutional issue, the subsequent next steps towards a solution should be considered at an institutional level.  As almost all areas of DRI are served by multiple departments, a logical step would be to initiate a dialogue among these separate units, to begin teasing how they might collaborate and work towards a unified approach to the promotion and discoverability of DRI services at UBC.   
 
