@@ -123,13 +123,13 @@ As mentioned above, a large number of respondents indicated that they sought tra
 
 Figure X.  Focus Group Quotes Regarding Internal Training at UBC.  
 
-    “If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others      about what they're trying to [do and what] they're having trouble with.” 
+    “If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about what they're trying to [do and what] they're having trouble with.” 
 
-    “I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network       here and use the services and help them get better.” 
+    “I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and use the services and help them get better.” 
 
-    “I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always       look at UBC before looking outside, and I'll be very happy if I can find something.” 
+    “I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always   look at UBC before looking outside, and I'll be very happy if I can find something.” 
 
-    “Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]     it usually leads to a lot of productivity.”
+    “Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it usually leads to a lot of productivity.”
 
 _Regularly Offered/Asynchronus Training_
 In addition to the indicated desire for localized training, focus group participants also indicated that having training offered regularly throughout the year would be very helpful (see Figure X.).  A reason for this is that because graduate students arrive throughout the year, and not just at the beginning of the academic year, which then results in their missing training that may be of value.  In this same line of discussion, it was also indicated that asynchronous or online training would be of value, as it would not only accommodate those who cannot make live training sessions, but can also act as a beneficial supplement to live training.   
