@@ -33,4 +33,4 @@ _Top 3 areas in which researchers **sought training from ORS** (Figure X for ful
 
 **Finding 3:** Participants in focus groups noted that finding the right service is challenging; 
 
-**Recommendation 3:** Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services; 
+**Recommendation 3:** Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services. 
