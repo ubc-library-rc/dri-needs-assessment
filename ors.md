@@ -13,7 +13,7 @@ _Top 3 areas in which **researchers sought support from ORS** (Figure X for full
 2. Data & research agreements: 36% of researchers who sought support went to ORS 
 3. Inter-institutional collaboration: 24% of researchers who sought support went to ORS 
 
-_Top 3 areas in which researchers **sought training from ORS** (Figure X for full details)_ 
+_Top 3 areas in which **researchers sought training from ORS** (Figure X for full details)_ 
 
 1. Funding: 27% of researchers who sought training went to ORS 
 2. Ethics compliance: 17% of researchers who sought training went to ORS 
