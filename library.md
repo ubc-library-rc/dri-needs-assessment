@@ -13,7 +13,7 @@ _Top 3 areas in which **researchers sought support from the Library** (Figure X 
 2. Data Retention/deposit/preservation: 16% of researchers who sought support went to Library 
 3. Visualization: 14% of researchers who sought support went to Library 
 
-_Top 3 areas in which **researchers sought training from Library** (Figure X for full details)_ 
+_Top 3 areas in which **researchers sought training from the Library** (Figure X for full details)_ 
 
 1. Data Retention/deposit/preservation: 29% of researchers who sought training went to Library 
 2. Data management plan (DMP): 20% of researchers who sought training went to Library 
