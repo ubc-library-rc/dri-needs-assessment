@@ -7,7 +7,7 @@ For the purpose of this sub-report, the content will be limited to the DRI categ
 
 ### Top 3 Reasons People Come to ORS
 
-_Top 3 areas in which **researchers sought support from ORS** (Figure X for full details) _
+_Top 3 areas in which **researchers sought support from ORS** (Figure X for full details)_
 
 1. Funding: 28% of researchers who sought support went to ORS 
 2. Data & research agreements: 36% of researchers who sought support went to ORS 
