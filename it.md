@@ -7,7 +7,7 @@ For the purpose of this sub-report, the content will be limited to the DRI categ
 
 ### Top Reasons People Come to IT
 
-_Top 3 areas in which **researchers sought support from IT** (Figure X for full details) _
+_Top 3 areas in which **researchers sought support from IT** (Figure X for full details)_
 
 1. Hardware purchasing: 36% of researchers who sought support went to IT 
 2. Active data storage: 29% of researchers who sought support went to IT 
