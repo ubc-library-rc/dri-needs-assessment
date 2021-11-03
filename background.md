@@ -1,7 +1,5 @@
 ---
-title: Background
+title: Appendices 
 ---
 
-## Background
 
-## Methods
