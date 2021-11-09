@@ -1,7 +1,7 @@
 ---
 title: 'Graphs for DRI Needs Assessment report'
 author: 'Jeremy Buhler'
-date: 'Sep 27, 2021'
+date: 'Nov 9, 2021'
 output: html_document
 ---
 
@@ -9,9 +9,9 @@ output: html_document
 Check for required packages, install if needed
 
 ```{r}
-list.of.packages <- c("dplyr","tibble","tidyr","tidyselect","ggplot2","stringr","forcats","RColorBrewer")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
+# list.of.packages <- c("dplyr","tibble","tidyr","tidyselect","ggplot2","stringr","forcats","RColorBrewer")
+# new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+# if(length(new.packages)) install.packages(new.packages)
 ```
 
 Load required packages
@@ -154,22 +154,35 @@ pivot3 <- pivot2 %>%
  - create `short_response` field for legends
  - remove `other` fields
  - Identify set of responses that items in graph should be sorted by (these are assigned value of "1" in the `sort_include` variable)
- - order `short_response` levels for desired graph order
 
-### Create support and training subsets
 ```{r}
 graph_data <- pivot3 %>%
   mutate(short_response = str_match(response, "(.*)(support|training)")[,1]) %>%
   drop_na(short_response) %>%
   filter(item != "Other") %>%
   mutate(sort_include = if_else(str_starts(short_response,"I would have liked")|str_starts(short_response, "I sought additional"),1,0))
-
-graph_support <- graph_data %>%
-  filter(question == "Support")
-
-graph_training <- graph_data %>%
-  filter(question == "Training")
 ```
+
+# Overall "need for training/support" graph
+```{r}
+overall_graph <- graph_data %>%
+  filter(question == "Support"|question == "Training") %>%
+  mutate(response = str_match(response,"(.*(additional|liked))")[,2]) %>%
+  group_by(item,short_response) %>%
+  drop_na(short_response) %>%
+  ggplot(
+    aes(y=item, fill=response))+
+    geom_bar() +
+    labs(y="",x="# of respondents", fill="", title="Support and training by topic: all topics", caption="All topics selected by at least one survey respondent")+
+    scale_fill_brewer(palette = "Greens")+
+    facet_wrap(vars(question)) +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
+
+# ggsave(paste0("graphs/",str_replace(i," ","_"),"_support-training.png"))
+print(overall_graph)
+
+```
+
 
 # Units for which graphs are required
 ```{r}
@@ -177,13 +190,13 @@ unit <- c("UBC ARC", "UBC Library", "UBC IT", "UBC ORS")
 ```
 
 
-# Unit-specific support graphs
+# Unit-specific "need for training/support" graphs
 ```{r}
 for (i in unit) {
 
 # create subset for SupportWhere graphs
-graph_sw <- pivot3 %>%
-  filter(question == "SupportWhere", item != "Other", response != "") %>%
+graph_w <- pivot3 %>%
+  filter(question == "SupportWhere"|question == "TrainingWhere",item != "Other", response != "") %>%
   mutate(short_response = case_when(
        str_detect(response, paste0(".*",i,".*")) ~ i,
        str_detect(response,"Support outside UBC", negate = TRUE) ~ "Other UBC unit/dept",
@@ -191,128 +204,98 @@ graph_sw <- pivot3 %>%
     mutate(sort_include = 1)
 
 # reorder levels so selected "unit" is always the same color (otherwise color is assigned alphabetically)
-graph_sw$short_response <- factor(graph_sw$short_response, levels = c("Outside UBC","Other UBC unit/dept",i))
+graph_w$short_response <- factor(graph_w$short_response, levels = c("Outside UBC","Other UBC unit/dept",i))
 
 # create list of `items` where at least one person sought support from selected unit 
-unit_subset <- graph_sw %>%
+unit_subset <- graph_w %>%
   filter(short_response == i) %>%
   select(item) %>%
   distinct()
-
-# for support graphs, `item` ordered by totals of `sort_include` variable
-graph_support$item <- fct_reorder(graph_support$item,graph_support$sort_include,sum)
+# `item` ordered by totals of `sort_include` variable
+graph_data$item <- fct_reorder(graph_data$item,graph_data$sort_include,sum)
 
 # generate support graphs
-output_support <- graph_support %>% 
-  filter(item %in% unit_subset$item) %>%
+output_st <- graph_data %>%
+  filter(question == "Support"|question == "Training", item %in% unit_subset$item) %>%
+  mutate(response = str_match(response,"(.*(additional|liked))")[,2]) %>%
   group_by(item,short_response) %>%
   drop_na(short_response) %>%
   ggplot(
-    aes(y=item, fill=short_response))+
+    aes(y=item, fill=response))+
     geom_bar() +
-    labs(y="",x="# of respondents", fill="", title="Support by topic", subtitle = "Including web resources, consultations, troubleshooting, recommendations", caption=paste("Limited to topics for which 1 or more respondents sought support from",i))+
+    labs(y="",x="# of respondents", fill="", title=paste("Support and training by topic:",i,"subset"), caption=paste("Topics for which 1 or more respondents sought support or training from",i))+
     scale_fill_brewer(palette = "Greens")+
+    facet_wrap(vars(question)) +
     theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
 
-ggsave(paste0("graphs/",str_replace(i," ","_"),"_support.png"))
-print(output_support)
-
-# generate supportWhere graphs
-output_sw <- graph_sw %>% 
-  filter(short_response != "NA/blank") %>%
-  filter(item %in% unit_subset$item) %>%
-  group_by(item,short_response) %>%
-  ggplot(
-    aes(y=fct_rev(fct_infreq(item)), fill=short_response))+
-    geom_bar() +
-    labs(y="",x="# of respondents", fill="", title="Places support is sought, by topic", caption=paste("Limited to topics for which 1 or more respondents sought support from",i))+
-    scale_fill_brewer(palette = "Blues")+
-    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
-
-ggsave(paste0("graphs/",str_replace(i," ","_"),"_supportWhere.png"))
-print(output_sw)
+# ggsave(paste0("graphs/",str_replace(i," ","_"),"_support-training.png"))
+print(output_st)
 }
 ```
 
-# Unit-specific training graphs
+
+# Unit-specific "where sought support/training" graphs
 ```{r}
 for (i in unit) {
 
 # create subset for TrainingWhere graphs
-graph_tw <- pivot3 %>%
-  filter(question == "TrainingWhere", item != "Other", response != "") %>%
+graph_w <- pivot3 %>%
+  filter(question == "TrainingWhere"|question == "SupportWhere", item != "Other", response != "") %>%
   mutate(short_response = case_when(
        str_detect(response, paste0(".*",i,".*")) ~ i,
-       str_detect(response,"Training outside UBC", negate = TRUE) ~ "Other UBC unit/dept",
+       str_detect(response,"outside UBC", negate = TRUE) ~ "Other UBC unit/dept",
        TRUE ~ "Outside UBC")) %>%
     mutate(sort_include = 1)
 
 # reorder levels so selected "unit" is always the same color (otherwise color is assigned alphabetically)
-graph_tw$short_response <- factor(graph_tw$short_response, levels = c("Outside UBC","Other UBC unit/dept",i))
+graph_w$short_response <- factor(graph_w$short_response, levels = c("Outside UBC","Other UBC unit/dept",i))
 
 # create list of `items` where at least one person sought support from selected unit 
-unit_subset <- graph_tw %>%
+unit_subset <- graph_w %>%
   filter(short_response == i) %>%
   select(item) %>%
   distinct()
 
-# for training graphs, `item` ordered by totals of `sort_include` variable
-graph_training$item <- fct_reorder(graph_training$item,graph_training$sort_include,sum)
-
-# generate support graphs
-output_training <- graph_training %>% 
-  filter(item %in% unit_subset$item) %>%
-  group_by(item,short_response) %>%
-  drop_na(short_response) %>%
-  ggplot(
-    aes(y=item, fill=short_response))+
-    geom_bar() +
-    labs(y="",x="# of respondents", fill="", title="Training by topic", subtitle = "Includes workshops, online modules, and courses", caption=paste("Limited to topics for which 1 or more respondents sought training from",i))+
-    scale_fill_brewer(palette = "Oranges")+
-    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
-
-ggsave(paste0("graphs/",str_replace(i," ","_"),"_training.png"))
-print(output_training)
-
-# generate trainingWhere graphs
-output_tw <- graph_tw %>% 
+# generate trainingWhere/supportWhere graphs
+output_w <- graph_w %>% 
   filter(short_response != "NA/blank") %>%
   filter(item %in% unit_subset$item) %>%
   group_by(item,short_response) %>%
   ggplot(
     aes(y=fct_rev(fct_infreq(item)), fill=short_response))+
     geom_bar() +
-    labs(y="",x="# of respondents", fill="", title="Places training is sought, by topic", caption=paste("Limited to topics for which 1 or more respondents sought training from",i))+
-    scale_fill_brewer(palette = "Purples")+
+    labs(y="",x="# of respondents", fill="", title=paste("Places training is sought, by topic:",i,"subset"), caption=paste("Limited to topics for which 1 or more respondents sought support or training from",i))+
+    scale_fill_brewer(palette = "Oranges") +
+    facet_wrap(vars(question)) +
     theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
 
 ggsave(paste0("graphs/",str_replace(i," ","_"),"_trainingWhere.png"))
-print(output_tw)
+print(output_w)
 }
 ```
 
 
-### Support/training overall graph
 
-```{r fig.width = 5.5}
+### Support/training overall graph (# of instances)
+
+```{r}
 # set custom palette so colors match other graphs in the report
 custom_greens <- brewer.pal(3,"Greens")[2:3]
 
 graph_data %>% 
-  group_by(id,question,short_response) %>%
-  summarise(.groups="drop_last") %>%
   filter(str_detect(short_response,"I would have liked") == TRUE | str_detect(short_response,"I sought additional") == TRUE) %>%
   mutate(short_response = str_remove(short_response," (training|support)")) %>%
   ggplot(
     aes(y=short_response, fill=short_response,))+
     geom_bar() +
     facet_wrap(vars(question)) +
-    labs(y="",x="# of respondents", fill="", title="Need for support/training", caption = "Respondents who chose these options for at least one topic covered in the survey" )+
+    labs(y="",x="# of instances", fill="", title="Need for support/training", caption = '* "I would have liked support/training but did not know it was available"' )+
     scale_fill_manual(values = custom_greens) +
     theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), aspect.ratio = 1/4, legend.position = "none", plot.caption=element_text(size=9,color='#808080',margin=margin(15,0,0,0)))
 
 ggsave("graphs/overall_support-training.png")
 ```
+
 
 
 
@@ -348,32 +331,3 @@ unit_mentions %>%
 ggsave("graphs/overall_where_support-training.png")
 ```
 
-
-## support and training: locations mentioned
-```{r fig.width=5}
-unit_count <- pivot3 %>%
-  select(id,question,item,response) %>%
-  filter(question == "SupportWhere" | question == "TrainingWhere", response != "") %>%
-  mutate(full_count = str_count(response, ",")+1) 
-
-# convert to factor (makes it easier to assign colors in graph)
-unit_count$full_count <- as.factor(unit_count$full_count)
-
-# create color scale
-custom_reds <- brewer.pal(6,"Reds")[2:6]
-
-# create graph
-unit_count %>%
-  mutate(question = str_remove(question,"Where")) %>%
-  ggplot(
-    aes(x=full_count, fill=full_count)) +
-    geom_bar() +
-    facet_wrap(vars(question)) +
-    labs(y="# of instances",x="# of places sought", title="Number of places support/training was sought", subtitle="Places include UBC units, UBC departments, and resources outside UBC", caption="An 'instance' represents one respondent's answer for one topic area in the survey") +
-    geom_bar() +
-    scale_fill_manual(values = custom_reds) +
-    facet_wrap(vars(question)) +
-    theme_minimal() + theme(panel.grid.major.x = element_line(color = "white"), panel.grid.minor.x = element_line(color = "white"), plot.subtitle=element_text(size=10), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)), legend.position = "none")
-
-ggsave("graphs/overall_number_of_places_support-training.png")
-```
