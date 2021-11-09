@@ -43,9 +43,9 @@ _Top 3 areas in which **researchers sought training from the Library** (Figure X
 
 ## Highlights
 
-<img class="figure-sub" alt="Need for support/training" src="graphs/UBC_Library_support.png">
+<img class="figure-sub" alt="Need for support/training" src="graphs/UBC_Library_support-training.png">
 
-<img class="figure-sub" alt="Places support is sought" src="graphs/UBC_Library_supportWhere.png">
+<img class="figure-sub" alt="Places support is sought" src="graphs/UBC_Library_where.png">
 
 <img class="figure-sub" alt="Need for training" src="graphs/UBC_Library_training.png">
 
