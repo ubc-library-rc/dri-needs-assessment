@@ -2,10 +2,17 @@
 title: Library
 ---
 
-## Executive Summary
-For the purpose of this sub-report, the content will be limited to the DRI categories in which researchers sought either training or support from UBC Library.   
+## UBC Library
 
-### Top Reasons People Come to the Library
+With 13 branches spanning UBC Vancouver, Vancouver General Hospital, and UBC Okanagan, UBC Library supports a range of research activities in diverse and unique contexts. In the context of Digital Research Infrastructure, librarians work with local and national partners to develop access points to research, facilitate deposit of research data, and create training materials to enhance research practices in a digital environment. The library also develops collections and funds platforms that allow researchers to learn about and participate in digital research.
+
+On the Vancouver campus, DRI activities in the realms of RDM, and tools for data visualization, statistical analysis, geospatial inquiries, and text analysis are supported by the Research Commons. On the Okanagan campus, the Centre for Scholarly Communication brings together expertise from the Library, Research Computing, and the Office of Research Services as a single portal to facilitate researcher access to training and support across the full scope of DRI activities queried in the DRI Needs Assessment survey.
+
+## UBC Library & DRI
+
+UBC Library has positioned itself as a leader on campus in supporting Research Data Management and providing graduate level training in a number of computational activities that underpin DRI. The degree to which respondents to the DRI Needs Assessment survey leveraged the training and supports offered by UBC Library are detailed below.
+
+## Top Reasons People Seek Out UBC Library
 
 _Top 3 areas in which **researchers sought support from the Library** (Figure X for full details)_ 
 
@@ -21,20 +28,17 @@ _Top 3 areas in which **researchers sought training from the Library** (Figure X
 
 ### Key Findings & Recommendations
 
-**Finding 1:** A significant portion of respondents reported wanting training and support but didn’t know they were available; 
+**Finding 1:** As a leader in RDM services and training, a surprising number of respondents either were unaware of these supports or looked outside the library for support;
 
-**Recommendation 1:**  Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily discover and access services; 
+**Recommendation 1:**  Figure out why, and revisit communication strategies;
 
+**Finding 2:**  Aside from DMPs, the library was often the least accessed unit for support across DRI elements in the survey.
 
-**Finding 2:**  For DRI areas in which researchers turned to Library for training and support, multiple other support groups, including those outside UBC, were also sought; 
+**Recommendation 2:** The library is a place to ask questions and has potential to operate as a central portal to many services on campus. There is opportunity here to coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
 
-**Recommendation 2:** Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication; 
+**Finding 3:** UBC Library was frequently a point of contact for both training and support across a wide range of DRI services.
 
-
-**Finding 3:** Participants in focus groups noted that finding the right service is challenging. 
-
-**Recommendation 3:** Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services. 
-
+**Recommendation 3:** There is room for both expansion of services, better communication of existing services, and opportunities for coordination across portfolios and  departments that provide DRI services to build a central portal for the  easy discovery of services.
 
 
 ## Highlights
