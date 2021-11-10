@@ -36,6 +36,7 @@ _Top 3 areas in which **researchers sought training from IT** (Figure X for full
 **Recommendation 3:** Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services. 
 
 
+## Highlights
 
 <img class="figure-sub" alt="Need for support/training" src="graphs/UBC_IT_support-training.png">
 
