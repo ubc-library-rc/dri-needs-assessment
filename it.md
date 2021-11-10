@@ -34,3 +34,9 @@ _Top 3 areas in which **researchers sought training from IT** (Figure X for full
 **Finding 3:** Participants in focus groups noted that finding the right service is challenging; 
 
 **Recommendation 3:** Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services. 
+
+
+
+<img class="figure-sub" alt="Need for support/training" src="graphs/UBC_IT_support-training.png">
+
+<img class="figure-sub" alt="Places support is sought" src="graphs/UBC_IT_where.png">
