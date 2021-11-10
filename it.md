@@ -21,7 +21,7 @@ _Top 3 areas in which **researchers sought training from IT** (Figure X for full
 
 ### Key Findings & Recommendations
 
-**Finding 1:** A significant portion of respondents reported wanting training and support but didn’t know they were available; 
+**Finding 1:** A significant portion of respondents reported wanting training and support but not knowing they were available; 
 
 **Recommendation 1:**  Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily discover and access services; 
 
