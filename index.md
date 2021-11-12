@@ -51,15 +51,6 @@ From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC
 **Recommendation 3**: Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
 
 
-<img class="figure-main" alt="Need for support/training" src="graphs/overall_support-training.png">
-
-
-
-<img class="figure-main" alt="Places support/training is sought" src="graphs/overall_where_support-training.png">
-
-<img class="figure-main" alt="Number of places support/training is sought" src="graphs/overall_number_of_places_support-training.png">
-
-
 ## Reports
 
 The 25 areas of DRI queried have been split into 4 individual reports, detailing if supports and training were needed and where they were sought. Each report is catered to a specific unit and represents core areas of service delivery within each of those units. 
@@ -131,13 +122,13 @@ For the purpose of this report, this section will feature the high-level finding
 
 One of the most striking findings from the survey was the discrepancy between the relatively small number of those that sought training or support, compared to the much larger numbers of those that would have liked training or support but didn’t know they were available (see Figure X. and X.)  Of particular note, is that this gap between those that sought training or support versus those that wanted it spans across nearly all of the 25 DRI elements and the respective portfolios and departments that serve these areas.   
 
-!!Placeholder for Figures for Lack of Awareness for Training/Support
+<img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_support-training.png">
 
 **_Dispersion of Support and Training_**
 
 Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X.).  Furthermore, for those that did seek training, many turned to sources outside of UBC for a variety of DRI areas.  Those that sought support also turned to sources outside UBC, although to a lesser degree compared to training.   
 
-!!Placeholder for support/training sought across multiple units
+<img style="margin: 20px 0" alt="Need for support/training" src="graphs/overall_where.png">
 
 **_Training Within UBC_**
 
