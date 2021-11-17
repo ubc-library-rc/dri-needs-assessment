@@ -32,10 +32,10 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
  
 **Finding 2:**  ARC sits as a close second behind UBC Library as a leader in DMP support and training at UBC, and this is an area in which a vast majority of respondents wanted both training and support, but didn’t know they were available;
 
-**Recommendation 2:**  Coordinate DMP and other RDM services with the Library to maximize efforts, resources, and discoverability of services.
+**Recommendation 2:**  Coordinate DMP and other RDM services with the Library to maximize efforts, resources, and discoverability of services;
 
 
-**Finding 3:**  Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  There were also several comments in the survey indicating that introductory ARC training is too difficult for beginners.
+**Finding 3:**  Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  There were also several comments in the survey indicating that introductory ARC training is too difficult for beginners;
 
 **Recommendation 3:**  Look for partners within UBC to determine training and support that is feasible to offer internally, and what is acceptable to refer to externally.  Leverage partnerships to build a coding/programming curriculum, beginning with the very basic and leading to HPC training, as a way to build a larger base of researchers who are capable of utilizing ARC resources and conducting world-class research.    
 
