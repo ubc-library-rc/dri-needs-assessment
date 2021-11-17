@@ -47,3 +47,15 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 
 <img style="margin: 20px" alt="Places support and training are sought" src="graphs/UBC_ARC_where.png">
 
+
+## Survey Comments
+
+_“Sometimes the ARC training is very technical and unapproachable for students new to stats and HPC.” _
+
+_“I attended some intro sessions last summer, but it was still too big of a jump from using a personal desktop to Sockeye or Compute Canada resources.”_
+
+_“Please make more comprehensive resources for beginners working with the ARC Sockeye cluster!"_
+
+
+
+
