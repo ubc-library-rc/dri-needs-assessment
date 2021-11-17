@@ -41,7 +41,8 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 
 ## Highlights
 
-<img class="figure-sub" alt="Need for support/training" src="graphs/UBC_ARC_support-training.png">
+<img style="margin: 20px" alt="Need for support and training" src="graphs/UBC_ARC_support-training.png">
 
-<img class="figure-sub" alt="Places support is sought" src="graphs/UBC_ARC_where.png">
+
+<img style="margin: 20px" alt="Places support and training are sought" src="graphs/UBC_ARC_where.png">
 
