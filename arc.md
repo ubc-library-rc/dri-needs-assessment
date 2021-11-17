@@ -50,7 +50,7 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 
 ## Survey Comments
 
-_“Sometimes the ARC training is very technical and unapproachable for students new to stats and HPC.” _
+_“Sometimes the ARC training is very technical and unapproachable for students new to stats and HPC.”_
 
 _“I attended some intro sessions last summer, but it was still too big of a jump from using a personal desktop to Sockeye or Compute Canada resources.”_
 
