@@ -136,13 +136,13 @@ As mentioned above, a large number of respondents indicated that they sought tra
 
 Figure X.  Focus Group Quotes Regarding Internal Training at UBC.  
 
-“If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about what they're trying to [do and what] they're having trouble with.” 
+_“If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about what they're trying to [do and what] they're having trouble with.”_
 
-“I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and use the services and help them get better.” 
+_“I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and use the services and help them get better.”_ 
 
-“I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always   look at UBC before looking outside, and I'll be very happy if I can find something.” 
+_“I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always   look at UBC before looking outside, and I'll be very happy if I can find something.”_ 
 
-“Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it usually leads to a lot of productivity.”
+_“Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it usually leads to a lot of productivity.”_
 
 **_Regularly Offered/Asynchronus Training_**
 
