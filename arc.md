@@ -8,20 +8,13 @@ Situated within the Office of the Vice-President of Research and Innovation (VPR
 
 ARC occupies a unique position at the intersection of HPC, research data management (RDM), and research software (RS), and leverages this position through collaborating with many departments and portfolios across UBC to offer support and training across a wide range of DRI activities queried in this needs assessment.   
 
-### Top Reasons People Come to ARC
 
+## Definitions
 
-_Top 3 areas in which **researchers sought support from ARC** (Figure X for full details)_
+**Training** Single workshops, workshop series, online modules/videos, and formal courses
 
-1. High-Performance Computing: 38% of researchers who sought support went to ARC
-2. Active Data Storage: 21% of researchers who sought support went to ARC
-3. Data Retention/Deposit/Preservation: 23% of researchers who sought support went to ARC
+**Support** Web resources, consultations, advising, troubleshooting, and recommendations
 
-_Top 3 areas in which **researchers sought training from ARC** (Figure X for full details)_
-
-1. High-Performance Computing: 35% of researchers who sought training went to ARC
-2. Coding/Programming:  15% of researches who sought training went to ARC
-3. Cloud Computing:  23% of researches who sought training went to ARC
 
 ### Key Findings & Recommendations
 
@@ -38,6 +31,24 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 **Finding 3:**  Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  There were also several comments in the survey indicating that introductory ARC training is too difficult for beginners;
 
 **Recommendation 3:**  Look for partners within UBC to determine training and support that is feasible to offer internally, and what is acceptable to refer to externally.  Leverage partnerships to build a coding/programming curriculum, beginning with the very basic and leading to HPC training, as a way to build a larger base of researchers who are capable of utilizing ARC resources and conducting world-class research.    
+
+
+
+### Top Reasons People Come to ARC
+
+
+_Top 3 areas in which **researchers sought support from ARC** (Figure X for full details)_
+
+1. High-Performance Computing: 38% of researchers who sought support went to ARC
+2. Active Data Storage: 21% of researchers who sought support went to ARC
+3. Data Retention/Deposit/Preservation: 23% of researchers who sought support went to ARC
+
+_Top 3 areas in which **researchers sought training from ARC** (Figure X for full details)_
+
+1. High-Performance Computing: 35% of researchers who sought training went to ARC
+2. Coding/Programming:  15% of researches who sought training went to ARC
+3. Cloud Computing:  23% of researches who sought training went to ARC
+
 
 
 ## Highlights
