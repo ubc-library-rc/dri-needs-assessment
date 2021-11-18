@@ -6,7 +6,7 @@ title: ARC
 
 Situated within the Office of the Vice-President of Research and Innovation (VPRI), UBC Advanced Research Computing (ARC) supports the high-performance computing (HPC) and data management needs of researchers across all UBC campuses and affiliated hospitals and institutions.  With team members having a wide variety of technical and research backgrounds, and whom actively sit on and support a number of national teams and services, ARC facilitates training, support, and access to a broad range of local and national digital research infrastructure. 
 
-ARC occupies a unique position at the intersection of HPC, research data management (RDM), and research software (RS), and leverages this position through collaborating with many departments and portfolios across UBC to offer support and training across a wide range of DRI activities queried in this needs assessment. &nbsp  ;
+ARC occupies a unique position at the intersection of HPC, research data management (RDM), and research software (RS), and leverages this position through collaborating with many departments and portfolios across UBC to offer support and training across a wide range of DRI activities queried in this needs assessment.       
 
 ### Definitions
 
