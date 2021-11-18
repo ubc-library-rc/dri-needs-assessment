@@ -10,11 +10,13 @@ ARC occupies a unique position at the intersection of HPC, research data managem
 
 
 
+
 ### Definitions
 
 **Training** Single workshops, workshop series, online modules/videos, and formal courses
 
 **Support** Web resources, consultations, advising, troubleshooting, and recommendations
+
 
 
 
