@@ -150,15 +150,15 @@ In addition to the indicated desire for localized training, focus group particip
 
 Figure X. Focus Group Quotes Regarding the Frequency of Training Offerings  
 
-“It's easy when students all come in September, because we seem to be geared up in that time on this campus to put people through [training].  But when they show      up in May, they've missed much [of the training offered], so I think options that are online [would be helpful].” 
+_“It's easy when students all come in September, because we seem to be geared up in that time on this campus to put people through [training].  But when they show      up in May, they've missed much [of the training offered], so I think options that are online [would be helpful].”_ 
 
-“Training would probably be useful [if] regularly offered.  And I recognize the landscape is changing all the time, but that’s why it needs to be regularly            offered.” 
+_“Training would probably be useful [if] regularly offered.  And I recognize the landscape is changing all the time, but that’s why it needs to be regularly            offered.”_ 
   
-“I think having some ability to do asynchronous learning would facilitate students coming at different times and being able to go at their own pace…[and then         would build] the ability to come with targeted questions” 
+_“I think having some ability to do asynchronous learning would facilitate students coming at different times and being able to go at their own pace…[and then         would build] the ability to come with targeted questions”_ 
 
-“I like the little canvas modules... I think those are useful.  I always advocate for them as ways to do training.  And those paired with... regular drop in           [sessions] it seems to me, would be really useful.” 
+_“I like the little canvas modules... I think those are useful.  I always advocate for them as ways to do training.  And those paired with... regular drop in           [sessions] it seems to me, would be really useful.”_ 
 
-“I think that tutorial packages with examples are by far the best way [for me to learn] ... But I know that other people do have different needs and I think that     having direct feedback and being able to ask a human being questions is useful for some people.” 
+_“I think that tutorial packages with examples are by far the best way [for me to learn] ... But I know that other people do have different needs and I think that     having direct feedback and being able to ask a human being questions is useful for some people.”_ 
     
  
 ### **Discussion and Next Steps**
