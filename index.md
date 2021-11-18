@@ -128,7 +128,7 @@ One of the most striking findings from the survey was the discrepancy between th
 
 **_Dispersion of Support and Training_**
 
-Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X.).  Furthermore, for those that did seek training, many turned to sources outside of UBC for a variety of DRI areas.  Those that sought support also turned to sources outside UBC, although to a lesser degree compared to training.   
+Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X).  Furthermore, for those that did seek both support and training, many turned to sources outside of UBC for a variety of DRI areas.    
 
 <img style="margin: 20px 0" alt="Need for support/training" src="graphs/overall_where.png">
 
