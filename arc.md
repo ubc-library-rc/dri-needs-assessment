@@ -22,7 +22,7 @@ ARC occupies a unique position at the intersection of HPC, research data managem
 **Recommendation 1:**  As UBC Library and IT are also leaders in both these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
  
  
-**Finding 2:**  ARC sits as a close second behind UBC Library as a leader in DMP support and training at UBC, and this is an area in which a vast majority of respondents wanted both training and support, but didn’t know they were available;
+**Finding 2:**  ARC sits as a close second behind UBC Library as a leader in DMP support and training, and this is an area in which a vast majority of respondents wanted both training and support, but didn’t know they were available;
 
 **Recommendation 2:**  Coordinate DMP and other RDM services with the Library to maximize efforts, resources, and discoverability of services;
 
