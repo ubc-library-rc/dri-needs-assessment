@@ -56,6 +56,6 @@ _“I attended some intro sessions last summer, but it was still too big of a ju
 
 _“Please make more comprehensive resources for beginners working with the ARC Sockeye cluster!"_
 
-
+_“It was hard to know where to start, especially when working with many non-UBC partners who could not access UBC or Compute Canada systems easily”_
 
 
