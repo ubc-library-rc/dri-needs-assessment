@@ -9,11 +9,12 @@ Situated within the Office of the Vice-President of Research and Innovation (VPR
 ARC occupies a unique position at the intersection of HPC, research data management (RDM), and research software (RS), and leverages this position through collaborating with many departments and portfolios across UBC to offer support and training across a wide range of DRI activities queried in this needs assessment.   
 
 
-## Definitions
+### Definitions
 
 **Training** Single workshops, workshop series, online modules/videos, and formal courses
 
 **Support** Web resources, consultations, advising, troubleshooting, and recommendations
+
 
 
 ### Key Findings & Recommendations
@@ -34,6 +35,7 @@ ARC occupies a unique position at the intersection of HPC, research data managem
 
 
 
+
 ### Top Reasons People Come to ARC
 
 
@@ -50,8 +52,6 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 3. Cloud Computing:  23% of researches who sought training went to ARC
 
 
-
-## Highlights
 
 <img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_soughtsupport.PNG">
 
