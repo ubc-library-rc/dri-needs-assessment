@@ -9,6 +9,8 @@ Digital Research Infrastructure (DRI) refers to a suite of services that enables
 
 From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched the DRI Needs Assessment Survey to investigate UBC researchers’ needs in 25 distinct areas relating to DRI (see full details of survey [insert link]), receiving 241 total responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights in these areas.
 
+Key findings from the survey indicate a need for increased collaboration among units providing DRI training and support, and an enhanced communication strategy to engage researchers with DRI campus training and supports. 
+
 <span style="font-size:0.8em;">The buttons below link to subreports tailored to the corresponding portfolio.</span>
 
 <div class="reportButton arc">
@@ -36,14 +38,14 @@ From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC
 ## Key Findings & Recommendations
 
 
-**Finding 1**: A significant portion of respondents reported wanting training and support but didn't know they were available;
+**Finding 1**:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
 
-**Recommendation 1**: Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
+**Recommendation 1**: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
 
 
-**Finding 2**:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
+**Finding 2**: Respondents overwhelmingly reported wanting training and support but not knowing they were available;
 
-**Recommendation 2**: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
+**Recommendation 2**: Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
 
 
 **Finding 3**: Participants in focus groups noted that finding the right service is challenging; 
@@ -81,7 +83,7 @@ RDM and DRI have considerable overlap; and supporting each spans multiple depart
 
 **Purpose**
 
-In order to ensure that the needs of our research community are being met in an era of rapid development and change, the UBC DRI Needs Assessment sought to investigate the training and support needs of researchers in relation to DRI.  These findings, used in conjunction with the researcher feedback being solicited by the UBC RDM Steering Committee, can help in identifying current gaps and vacancies in our institutional service offerings, and be used to inform the future desired state of DRI services at UBC. 
+In order to ensure that the needs of our research community are being met in an era of rapid development and change, the UBC DRI Needs Assessment sought to investigate the training and support needs of researchers in relation to DRI.  These findings, used in conjunction with the researcher feedback being solicited by the UBC RDM Steering Committee, can help identifying gaps and vacancies in our institutional service offerings, and be used to inform the future desired state of DRI services at UBC. 
 
 
 ### **Methods**
@@ -96,11 +98,11 @@ For the purpose of the survey, training and support were looked at as distinct s
 
 **Focus Groups**
 
-One of the final survey questions asked whether participants would be willing to be contacted for follow-up focus groups.  Of the 23 respondents who indicated they were willing to be contacted, we were able to schedule three focus groups with a total of 11 researchers.  The focus groups were semi-structured, containing scripted questions but also allowing spontaneous follow-up questions and discussion (see Appendix B. for question script).  For each session, two members from the assessment team were present, with one person leading the discussion and the other taking notes.  Sessions were conducted via Zoom, and were recorded as well as transcribed using Zoom’s built-in software.  Videos were deleted after transcripts were exported to a secure storage platform that shared with team members, and all transcripts were stripped of identifiers.  While transcripts weren’t formally coded or analyzed, excerpts of relevance were extracted and examined. 
+One of the final survey questions asked whether participants would be willing to be contacted for follow-up focus groups.  Of the 23 respondents who indicated they were willing to be contacted, we were able to schedule three focus groups with a total of 11 researchers.  The focus groups were semi-structured, containing scripted questions but also allowing spontaneous follow-up questions and discussion (see Appendix B. for question script).  For each session, two members from the assessment team were present, with one person leading the discussion and the other taking notes.  Sessions were conducted via Zoom, and were recorded as well as transcribed using Zoom’s built-in software.  Videos were deleted after transcripts were exported to a secure storage platform shared with team members, and all transcripts were stripped of identifiers.  While transcripts weren’t formally coded or analyzed, excerpts of relevance were extracted and examined. 
 
 **Limitations**
 
-The DRI Needs Assessment Survey was designed to scope out awareness and need for support and training in DRI. While free text fields allowed for respondents to provide additional qualitative feedback, the bulk of the survey focused on what was sought or needed and less on why or at what level or modality these training and supports were needed or not needed. While the focus groups allowed a deeper dive into these issues, the pool of focus group participants represents a sample biased by both size and discipline. Consequently, while this survey is able to report on the degree to which DRI training and support are used, known about, or sought  
+The DRI Needs Assessment Survey was designed to scope out awareness and need for support and training in DRI. While free text fields allowed for respondents to provide additional qualitative feedback, the bulk of the survey focused on what was sought or needed and less on why or at what level or in what modality these training and supports were needed or not needed. While the focus groups allowed a deeper dive into these issues, the pool of focus group participants represents a sample biased by both size and discipline. Consequently, while this survey is able to report on the degree of awareness of DRI supports and training and the degree to which DRI training and support are used and from which units or departments, further inquiry is needed to enhance our understanding of specific training and support needs, modalities of delivery, and access points to increase awareness. 
 
 ### **Results**
 
@@ -126,7 +128,7 @@ One of the most striking findings from the survey was the discrepancy between th
 
 **_Dispersion of Support and Training_**
 
-Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X.).  Furthermore, for those that did seek training, many turned to sources outside of UBC for a variety of DRI areas.  Those that sought support also turned to sources outside UBC, although to a lesser degree compared to training.   
+Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X).  Furthermore, for those that did seek both support and training, many turned to sources outside of UBC for a variety of DRI areas.    
 
 <img style="margin: 20px 0" alt="Need for support/training" src="graphs/overall_where.png">
 
@@ -136,34 +138,34 @@ As mentioned above, a large number of respondents indicated that they sought tra
 
 Figure X.  Focus Group Quotes Regarding Internal Training at UBC.  
 
-“If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about what they're trying to [do and what] they're having trouble with.” 
+_“If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about what they're trying to [do and what] they're having trouble with.”_
 
-“I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and use the services and help them get better.” 
+_“I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and use the services and help them get better.”_ 
 
-“I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always   look at UBC before looking outside, and I'll be very happy if I can find something.” 
+_“I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always   look at UBC before looking outside, and I'll be very happy if I can find something.”_ 
 
-“Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it usually leads to a lot of productivity.”
+_“Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it usually leads to a lot of productivity.”_
 
 **_Regularly Offered/Asynchronus Training_**
 
-In addition to the indicated desire for localized training, focus group participants also indicated that having training offered regularly throughout the year would be very helpful (see Figure X.).  A reason for this is that because graduate students arrive throughout the year, and not just at the beginning of the academic year, which then results in their missing training that may be of value.  In this same line of discussion, it was also indicated that asynchronous or online training would be of value, as it would not only accommodate those who cannot make live training sessions, but can also act as a beneficial supplement to live training.   
+In addition to the indicated desire for localized training, focus group participants also indicated that having training offered regularly throughout the year would be beneficial, as graduate students arrive throughout the year.  In this same line of discussion, participants indicated that asynchronous or online training would be of value, as it would not only accommodate those who cannot make live training sessions, but is a beneficial supplement to live training.   
 
 Figure X. Focus Group Quotes Regarding the Frequency of Training Offerings  
 
-“It's easy when students all come in September, because we seem to be geared up in that time on this campus to put people through [training].  But when they show      up in May, they've missed much [of the training offered], so I think options that are online [would be helpful].” 
+_“It's easy when students all come in September, because we seem to be geared up in that time on this campus to put people through [training].  But when they show      up in May, they've missed much [of the training offered], so I think options that are online [would be helpful].”_ 
 
-“Training would probably be useful [if] regularly offered.  And I recognize the landscape is changing all the time, but that’s why it needs to be regularly            offered.” 
+_“Training would probably be useful [if] regularly offered.  And I recognize the landscape is changing all the time, but that’s why it needs to be regularly            offered.”_ 
   
-“I think having some ability to do asynchronous learning would facilitate students coming at different times and being able to go at their own pace…[and then         would build] the ability to come with targeted questions” 
+_“I think having some ability to do asynchronous learning would facilitate students coming at different times and being able to go at their own pace…[and then         would build] the ability to come with targeted questions”_ 
 
-“I like the little canvas modules... I think those are useful.  I always advocate for them as ways to do training.  And those paired with... regular drop in           [sessions] it seems to me, would be really useful.” 
+_“I like the little canvas modules... I think those are useful.  I always advocate for them as ways to do training.  And those paired with... regular drop in           [sessions] it seems to me, would be really useful.”_ 
 
-“I think that tutorial packages with examples are by far the best way [for me to learn] ... But I know that other people do have different needs and I think that     having direct feedback and being able to ask a human being questions is useful for some people.” 
+_“I think that tutorial packages with examples are by far the best way [for me to learn] ... But I know that other people do have different needs and I think that     having direct feedback and being able to ask a human being questions is useful for some people.”_ 
     
  
 ### **Discussion and Next Steps**
 
-The substantial number of respondents wanting training or support, but not knowing they are available, indicates that DRI services are not being adequately communicated to the research community.  Of particular note is that there is not one single portfolio or area where this is prevalent, but rather, this seems to be a trend that spans the institution and all areas of DRI outlined in the survey.  While there is no definitive explanation as to why current communication efforts may not be effective, these findings suggest that DRI resources across UBC may be underutilized due to a lack of researcher awareness.  Acknowledging that this an institutional issue, the subsequent next steps towards a solution should be considered at an institutional level.  As almost all areas of DRI are served by multiple departments, a logical step would be to initiate a dialogue among these separate units, to begin teasing how they might collaborate and work towards a unified approach to the promotion and discoverability of DRI services at UBC.   
+The substantial number of respondents wanting training or support, but not knowing they are available, indicates that DRI services are not being effectively communicated to the research community.  Of particular note is that there is not one single portfolio or area where this is prevalent, but rather, this seems to be a trend that spans the institution and all areas of DRI outlined in the survey.  While there is no definitive explanation as to why current communication efforts may not be effective, these findings suggest that DRI resources across UBC may be underutilized due to a lack of researcher awareness.  Acknowledging that this an institutional issue, the subsequent next steps towards a solution should be considered at an institutional level.  As almost all areas of DRI are served by multiple departments, a logical step would be to initiate a dialogue among these separate units, to begin teasing how they might collaborate and work towards a unified approach to the promotion and discoverability of DRI services at UBC.   
 
 As a response to the upcoming Tri-Agency requirement of an RDM Institutional Strategy, UBC is currently and will continue to assess the maturity of its current capabilities to support RDM, as well as defining its ideal future state.  Because the services involved in supporting RDM include all aspects of DRI, and the assessment will involve taking stock of all services, supports, and training that are currently offered at UBC, there is an opportunity to define an ideal state that would focus on the consolidation and centralization of DRI services.  This type of future state would not only function in improving the visibility and discoverability of these services, but would also reduce duplicated efforts across the institution, resulting in a more efficient and effective use of resources.   
 

@@ -4,7 +4,34 @@ title: ARC
 
 ## Executive Summary
 
-For the purpose of this sub-report, the content will be limited to the DRI categories in which researchers sought either training or support from UBC ARC.       
+Situated within the Office of the Vice-President of Research and Innovation (VPRI), UBC Advanced Research Computing (ARC) supports the high-performance computing (HPC) and data management needs of researchers across all UBC campuses and affiliated hospitals and institutions.  With team members having a wide variety of technical and research backgrounds, and whom actively sit on and support a number of national teams and services, ARC facilitates training, support, and access to a broad range of local and national digital research infrastructure. 
+
+ARC occupies a unique position at the intersection of HPC, research data management (RDM), and research software (RS), and leverages this position through collaborating with many departments and portfolios across UBC to offer support and training across a wide range of DRI activities queried in this needs assessment.       
+
+### Definitions
+
+**Training**: Single workshops, workshop series, online modules/videos, and formal courses
+
+**Support**: Web resources, consultations, advising, troubleshooting, and recommendations
+
+
+### Key Findings & Recommendations
+
+**Finding 1:**  While ARC is a key player in active data storage and data retention/deposit/preservation at UBC, these were top areas in which researchers wanted both training and support, but didn’t know they were available;
+
+**Recommendation 1:**  As UBC Library and IT are also leaders in both these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
+ 
+ 
+**Finding 2:**  ARC sits as a close second behind UBC Library as a leader in DMP support and training, and this is an area in which a vast majority of respondents wanted both training and support, but didn’t know they were available;
+
+**Recommendation 2:**  Coordinate DMP and other RDM services with the Library to maximize efforts, resources, and discoverability of services;
+
+
+**Finding 3:**  Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  There were also several comments in the survey indicating that introductory ARC training is too difficult for beginners;
+
+**Recommendation 3:**  Look for partners within UBC to determine training and support that is feasible to offer internally, and what is acceptable to refer to externally.  Leverage partnerships to build a coding/programming curriculum, beginning with the very basic and leading to HPC training, as a way to build a larger base of researchers who are capable of utilizing ARC resources and conducting world-class research.    
+
+
 
 
 ### Top Reasons People Come to ARC
@@ -12,8 +39,8 @@ For the purpose of this sub-report, the content will be limited to the DRI categ
 
 _Top 3 areas in which **researchers sought support from ARC** (Figure X for full details)_
 
-1. High-Performance Computing: 38% of researches who sought support went to ARC
-2. Active Data Storage: 21% of researches who sought support went to ARC
+1. High-Performance Computing: 38% of researchers who sought support went to ARC
+2. Active Data Storage: 21% of researchers who sought support went to ARC
 3. Data Retention/Deposit/Preservation: 23% of researchers who sought support went to ARC
 
 _Top 3 areas in which **researchers sought training from ARC** (Figure X for full details)_
@@ -22,26 +49,25 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 2. Coding/Programming:  15% of researches who sought training went to ARC
 3. Cloud Computing:  23% of researches who sought training went to ARC
 
-### Key Findings & Recommendations
-
-**Finding 1:**  A significant portion of respondents reported wanting training and support but didn’t know they were available; 
-
-**Recommendation 1:**  Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily discover and access services; 
- 
- 
-**Finding 2:**  For DRI areas in which researchers turned to ARC for training and support, multiple other support groups, including those outside UBC, were also sought;  
-
-**Recommendation 2:**  Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication; 
 
 
-**Finding 3:**  Participants in focus groups noted that finding the right service is challenging; 
+<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_soughtsupport.PNG">
 
-**Recommendation 3:**  Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services. 
+<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_soughttraining.PNG">
+
+<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_wantedsupport.PNG">
+
+<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_wantedtraining.PNG">
 
 
-## Highlights
+## Survey Comments
 
-<img class="figure-sub" alt="Need for support/training" src="graphs/UBC_ARC_support-training.png">
+_“Sometimes the ARC training is very technical and unapproachable for students new to stats and HPC.”_
 
-<img class="figure-sub" alt="Places support is sought" src="graphs/UBC_ARC_where.png">
+_“I attended some intro sessions last summer, but it was still too big of a jump from using a personal desktop to Sockeye or Compute Canada resources.”_
+
+_“Please make more comprehensive resources for beginners working with the ARC Sockeye cluster!"_
+
+_“It was hard to know where to start, especially when working with many non-UBC partners who could not access UBC or Compute Canada systems easily”_
+
 
