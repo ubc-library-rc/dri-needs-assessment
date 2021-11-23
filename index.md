@@ -163,7 +163,7 @@ As mentioned above, a large number of respondents indicated that they sought tra
 
 Figure X.  Focus Group Quotes Regarding Internal Training at UBC.  
 
-_“If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about what they're trying to [do and what] they're having trouble with.”_
+>_“If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about >what they're trying to [do and what] they're having trouble with.”_
 
 _“I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and use the services and help them get better.”_ 
 
