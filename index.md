@@ -165,11 +165,11 @@ Figure X.  Focus Group Quotes Regarding Internal Training at UBC.
 
 >_“If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about >what they're trying to [do and what] they're having trouble with.”_
 
-_“I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and use the services and help them get better.”_ 
+>_“I always try to get [training] within UBC and be aligned with what you see [UBC] offering, because then it shows that I'm trying to build the research network   here and >use the services and help them get better.”_ 
 
-_“I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always   look at UBC before looking outside, and I'll be very happy if I can find something.”_ 
+>_“I can only see benefits in having training inside UBC.  Of course, you need to have the proper personnel to do that... but you know my first option will always   look at >UBC before looking outside, and I'll be very happy if I can find something.”_ 
 
-_“Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it usually leads to a lot of productivity.”_
+>_“Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it >usually leads to a lot of productivity.”_
 
 **_Regularly Offered/Asynchronus Training_**
 
@@ -177,15 +177,15 @@ In addition to the indicated desire for localized training, focus group particip
 
 Figure X. Focus Group Quotes Regarding the Frequency of Training Offerings  
 
-_“It's easy when students all come in September, because we seem to be geared up in that time on this campus to put people through [training].  But when they show      up in May, they've missed much [of the training offered], so I think options that are online [would be helpful].”_ 
+>_“It's easy when students all come in September, because we seem to be geared up in that time on this campus to put people through [training].  But when they show      up in >May, they've missed much [of the training offered], so I think options that are online [would be helpful].”_ 
 
-_“Training would probably be useful [if] regularly offered.  And I recognize the landscape is changing all the time, but that’s why it needs to be regularly            offered.”_ 
+>_“Training would probably be useful [if] regularly offered.  And I recognize the landscape is changing all the time, but that’s why it needs to be regularly            offered.”_ 
   
-_“I think having some ability to do asynchronous learning would facilitate students coming at different times and being able to go at their own pace…[and then         would build] the ability to come with targeted questions”_ 
+>_“I think having some ability to do asynchronous learning would facilitate students coming at different times and being able to go at their own pace…[and then         would >build] the ability to come with targeted questions”_ 
 
-_“I like the little canvas modules... I think those are useful.  I always advocate for them as ways to do training.  And those paired with... regular drop in           [sessions] it seems to me, would be really useful.”_ 
+>_“I like the little canvas modules... I think those are useful.  I always advocate for them as ways to do training.  And those paired with... regular drop in           >[sessions] it seems to me, would be really useful.”_ 
 
-_“I think that tutorial packages with examples are by far the best way [for me to learn] ... But I know that other people do have different needs and I think that     having direct feedback and being able to ask a human being questions is useful for some people.”_ 
+>_“I think that tutorial packages with examples are by far the best way [for me to learn] ... But I know that other people do have different needs and I think that     having >direct feedback and being able to ask a human being questions is useful for some people.”_ 
     
  
 ### **Discussion and Next Steps**
