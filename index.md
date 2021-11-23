@@ -43,18 +43,14 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ## Key Findings & Recommendations
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
+
   
 **Finding 1**:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
 
 **Recommendation 1**: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
+{: .alert .alert-info}
 
-  </div>
-  </div>
-
+  
 **Finding 2**: Respondents overwhelmingly reported wanting training and support but not knowing they were available;
 
 **Recommendation 2**: Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
