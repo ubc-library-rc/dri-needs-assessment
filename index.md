@@ -9,6 +9,7 @@ title: Digital Research Infrastructure Report
 
 
 ## Executive Summary
+{: .gitlab-blue}
 
 Digital Research Infrastructure (DRI) refers to a suite of services that enables the collection, processing, dissemination and disposition of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one’s research data.
 
