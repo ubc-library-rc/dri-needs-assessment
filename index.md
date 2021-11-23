@@ -112,7 +112,7 @@ The survey began by asking demographic information about participants’ positio
 
 <img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_position.PNG">
 
-<img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_discipline.PNG">
+<img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_disciplines.PNG">
 
 <img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_location.PNG">
 
