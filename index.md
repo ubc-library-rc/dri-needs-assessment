@@ -110,11 +110,11 @@ The DRI Needs Assessment Survey was designed to scope out awareness and need for
 
 The survey began by asking demographic information about participants’ position at UBC, their discipline, as well as their primary work location at UBC.   While Professors made up the largest group of respondents, there was strong representation across all groups except Instructors and Postdoctoral Fellows (see Figure X.).  In terms of research discipline, Medicine and Health Sciences, as well as the Social Sciences and Humanities made up a disproportionate number of respondents (see Figure X.).  The primary work location of respondents was largely the Vancouver campus, although there was significant representation from both the Okanagan campus as well as affiliated hospitals or institutions (see Figure X.) 
 
-!!Placeholder for Position at UBC Figure
+<img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_position.png">
 
-!!Placeholder for Research Discipline Figure
+<img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_discipline.png">
 
-!!Placeholder for Primary Work Location Figure
+<img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_location.png">
 
 **Findings**
 
