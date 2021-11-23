@@ -14,19 +14,26 @@ UBC Library has positioned itself as a leader on campus in supporting Research D
 
 ## Top Reasons People Seek Out UBC Library
 
-_Top 3 areas in which **researchers sought support from the Library** (Figure X for full details)_ 
+_Top 3 areas in which **researchers sought support from the Library** (Figure 1 for details)_ 
 
 1. Data management plan (DMP): 24% of researchers who sought support went to Library 
 2. Data Retention/deposit/preservation: 16% of researchers who sought support went to Library 
 3. Visualization: 14% of researchers who sought support went to Library 
 
-_Top 3 areas in which **researchers sought training from the Library** (Figure X for full details)_ 
+_Top 3 areas in which **researchers sought training from the Library** (Figure 2 for details)_ 
 
 1. Data Retention/deposit/preservation: 29% of researchers who sought training went to Library 
 2. Data management plan (DMP): 20% of researchers who sought training went to Library 
 3. Digital sustainability: 30% of researchers who sought training went to Library 
 
-### Key Findings & Recommendations
+<br/>
+#### Figure 1
+<img style="position: relative; top: -65px; margin: 20px" alt="Need for support and training" src="graphs/UBC_Library_support-training.png">
+
+#### Figure 2
+<img style="position: relative; top: -65px; margin: 20px" alt="Places support and training are sought" src="graphs/UBC_Library_where.png">
+
+## Key Findings & Recommendations
 
 **Finding 1:** As a leader in RDM services and training, a surprising number of respondents either were unaware of these supports or looked outside the library for support;
 
@@ -40,9 +47,3 @@ _Top 3 areas in which **researchers sought training from the Library** (Figure X
 
 **Recommendation 3:** There is room for both expansion of services, better communication of existing services, and opportunities for coordination across portfolios and  departments that provide DRI services to build a central portal for the  easy discovery of services.
 
-
-## Highlights
-
-<img style="margin: 20px" alt="Need for support and training" src="graphs/UBC_Library_support-training.png">
-
-<img style="margin: 20px" alt="Places support and training are sought" src="graphs/UBC_Library_where.png">
