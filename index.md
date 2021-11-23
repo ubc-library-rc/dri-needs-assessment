@@ -3,7 +3,6 @@ permalink: /
 title: Digital Research Infrastructure Report
 ---
 
-- TOC
 {:toc}
 
 ---
