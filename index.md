@@ -40,7 +40,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 ## Key Findings & Recommendations
 
 
-<div style="background: ghostwhite; 
+<div style="background: blue; 
             font-size: 5px; 
             padding: 10px; 
             border: 1px solid lightgray; 
