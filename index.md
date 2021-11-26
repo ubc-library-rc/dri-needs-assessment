@@ -39,12 +39,6 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ## Key Findings & Recommendations
 
-
-<div style="background: blue; 
-            font-size: 5px; 
-            padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 10px;">
   
 **Finding 1**:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
 
