@@ -39,7 +39,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ## Key Findings & Recommendations
 
-<div style="background: robin egg blue; 
+<div style="background: robineggblue; 
             font-size: 15px; 
             padding: 10px; 
             border: 1px solid lightgray; 
