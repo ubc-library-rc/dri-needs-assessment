@@ -33,9 +33,9 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ## Definitions
 
-**Training** Single workshops, workshop series, online modules/videos, and formal courses
+**Training**: Single workshops, workshop series, online modules/videos, and formal courses
 
-**Support** Web resources, consultations, advising, troubleshooting, and recommendations
+**Support**: Web resources, consultations, advising, troubleshooting, and recommendations
 
 ## Key Findings & Recommendations
 
