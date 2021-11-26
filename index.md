@@ -41,7 +41,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 
 <div style="background: ghostwhite; 
-            font-size: 10px; 
+            font-size: 5px; 
             padding: 10px; 
             border: 1px solid lightgray; 
             margin: 10px;">
