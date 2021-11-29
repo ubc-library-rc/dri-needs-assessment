@@ -51,14 +51,3 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 
 
 
-<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_soughtsupport.PNG">
-
-<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_soughttraining.PNG">
-
-<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_wantedsupport.PNG">
-
-<img style="margin: 20px" alt="Need for support and training" src="graphs/ARC_wantedtraining.PNG">
-
-
-
-
