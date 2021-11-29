@@ -19,7 +19,7 @@ ARC occupies a unique position at the intersection of HPC, research data managem
 
 **Finding 1:**  While ARC is a key player in active data storage and data retention/deposit/preservation at UBC, these were top areas in which researchers wanted both training and support, but didn’t know they were available;
 
-**Recommendation 1:**  As UBC Library and IT are also leaders in both these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
+**Recommendation 1:**  As UBC Library and UBC IT are also leaders in both these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
  
  
 **Finding 2:**  ARC sits as a close second behind UBC Library as a leader in DMP support and training, and this is an area in which a vast majority of respondents wanted both training and support, but didn’t know they were available;
@@ -27,14 +27,14 @@ ARC occupies a unique position at the intersection of HPC, research data managem
 **Recommendation 2:**  Coordinate DMP and other RDM services with the Library to maximize efforts, resources, and discoverability of services;
 
 
-**Finding 3:**  Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  There were also several comments in the survey indicating that introductory ARC training is too difficult for beginners;
+**Finding 3:**  Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  Additionally, several comments in the survey indicated that introductory ARC training is too difficult for beginners;
 
-**Recommendation 3:**  Look for partners within UBC to determine training and support that is feasible to offer internally, and what is acceptable to refer to externally.  Leverage partnerships to build a coding/programming curriculum, beginning with the very basic and leading to HPC training, as a way to build a larger base of researchers who are capable of utilizing ARC resources and conducting world-class research.    
-
-
+**Recommendation 3:**  Identify partners within UBC to determine training and support that is feasible to offer, and what external training can be endorsed and communicated.  Leverage partnerships to build a coding/programming curriculum, beginning with the very basic and leading to HPC training, as a way to build a larger base of researchers who are capable of effectively utilizing ARC resources and conducting world-class research.  
 
 
-### Top Reasons People Come to ARC
+
+
+### Top Areas People Come to ARC for Support and Training
 
 
 _Top 3 areas in which **researchers sought support from ARC** (Figure X for full details)_
