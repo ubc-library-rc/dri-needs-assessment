@@ -45,7 +45,8 @@ Key findings from the survey indicate a need for increased collaboration among u
   
 <b>Recommendation 1<b>: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
 </div>
-
+  </div>
+  
 **Finding 2**: Respondents overwhelmingly reported wanting training and support but not knowing they were available;
 
 **Recommendation 2**: Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
