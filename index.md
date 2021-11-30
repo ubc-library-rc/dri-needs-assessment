@@ -40,7 +40,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 ## Key Findings & Recommendations
 
 <div class = "consideration">
-
+  
 **Finding 1**:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
   
 **Recommendation 1**: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
@@ -79,7 +79,7 @@ The newly formed Digital Research Alliance of Canada (The Alliance) represents a
 
 **Research Data Management (RDM) Requirements**
 
- In line with the recently released Tri-Agency Research Data Management Policy, all Tri-Agency eligible institutions are required to create a public RDM Institutional Strategy by March 1, 2023. 
+In line with the recently released Tri-Agency Research Data Management Policy, all Tri-Agency eligible institutions are required to create a public RDM Institutional Strategy by March 1, 2023. 
 
 RDM requires knowledge of and services to support the creation, processing, dissemination, and disposition of data. This includes legal and ethical considerations, software and hardware expertise, communication strategies, and descriptive, taxonomic, and preservation knowledge. In an environment where digital scholarship and computational environments make up some aspect of almost every researcher’s workflow, DRI is very much the physical and human infrastructure that enable the practices of managing research data. 
 
