@@ -33,16 +33,18 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ## Definitions
 
+
 **Training**: Single workshops, workshop series, online modules/videos, and formal courses
 
 **Support**: Web resources, consultations, advising, troubleshooting, and recommendations
 
 ## Key Findings & Recommendations
 
+<div class = "recommendation">
 **Finding 1**:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
   
 **Recommendation 1**: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
-
+</div>
 
 **Finding 2**: Respondents overwhelmingly reported wanting training and support but not knowing they were available;
 
