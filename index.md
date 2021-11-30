@@ -41,24 +41,31 @@ Key findings from the survey indicate a need for increased collaboration among u
 ## Key Findings & Recommendations
 
 <div class="recommendation">
-<b>Finding 1</b>:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
+  <b>Finding 1</b>:  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
 
-<br>
-<br>
+   <br>
+   <br>
   
-<b>Recommendation 1</b>: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
+  <b>Recommendation 1</b>: Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
 </div>
 
+<div class="recommendation">
+  <b>Finding 2</b>: Respondents overwhelmingly reported wanting training and support but not knowing they were available;
+
+    <br>
+    <br>
   
-**Finding 2**: Respondents overwhelmingly reported wanting training and support but not knowing they were available;
+  <b>Recommendation 2</b>: Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
+</div>
 
-**Recommendation 2**: Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
+<div class="recommendation">
+  <b>Finding 3</b>: Participants in focus groups noted that finding the right service is challenging; 
+  
+  <br>
+  <br>
 
-
-**Finding 3**: Participants in focus groups noted that finding the right service is challenging; 
-
-**Recommendation 3**: Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
-
+  <b>Recommendation 3</b>: Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
+</div>
 
 ## Reports
 
