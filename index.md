@@ -44,7 +44,6 @@ Key findings from the survey indicate a need for increased collaboration among u
 <br>
 
 ## Key Findings & Recommendations
-
 <div class="recommendation">
   <b>Finding 1</b>:  
   <br>
