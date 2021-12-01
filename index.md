@@ -93,7 +93,7 @@ The 25 areas of DRI queried have been split into 4 individual reports, detailing
 ## **Full Report**
 
 
-### **Introduction**
+
 
 **Background**
 
