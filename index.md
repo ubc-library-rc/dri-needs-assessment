@@ -63,16 +63,22 @@ Key findings from the survey indicate a need for increased collaboration among u
     <br>
     <br>
   
-  <b>Recommendation 2</b>: Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
+  <b>Recommendation 2</b>: 
+  <br>
+  Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
 </div>
 
 <div class="recommendation">
-  <b>Finding 3</b>: Participants in focus groups noted that finding the right service is challenging; 
+  <b>Finding 3</b>: 
+  <br>
+  Participants in focus groups noted that finding the right service is challenging; 
   
   <br>
   <br>
 
-  <b>Recommendation 3</b>: Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
+  <b>Recommendation 3</b>: 
+  <br>
+  Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
 </div>
 
 ## Reports
