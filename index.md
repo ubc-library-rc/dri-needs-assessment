@@ -44,12 +44,14 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 <div class="recommendation">
   <b>Finding 1</b>:  
+  <br>
   For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
 
    <br>
    <br>
   
   <b>Recommendation 1</b>: 
+  <br>
   Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
 </div>
 
