@@ -58,7 +58,9 @@ Key findings from the survey indicate a need for increased collaboration among u
 </div>
 
 <div class="recommendation">
-  <b>Finding 2</b>: Respondents overwhelmingly reported wanting training and support but not knowing they were available;
+  <b>Finding 2</b>: 
+  <br>
+  Respondents overwhelmingly reported wanting training and support but not knowing they were available;
 
     <br>
     <br>
