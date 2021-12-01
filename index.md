@@ -38,6 +38,8 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 **Support**: Web resources, consultations, advising, troubleshooting, and recommendations
 
+<br>
+
 ## Key Findings & Recommendations
 
 <div class="recommendation">
