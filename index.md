@@ -32,7 +32,6 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ## Definitions
 
-<br>
 
 **Training**: Single workshops, workshop series, online modules/videos, and formal courses
 
