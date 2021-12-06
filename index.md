@@ -100,6 +100,8 @@ The 25 areas of DRI queried have been split into 4 individual reports, detailing
 
 # Full Report
 
+[Background](
+<br>
 [Methods](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#methods)
 <br>
 [Results](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#results)
@@ -108,7 +110,7 @@ The 25 areas of DRI queried have been split into 4 individual reports, detailing
 
 <br>
 
-**Background**
+## Background
 
 Digital Research Infrastructure (DRI) refers to a suite of services that enables the collection, processing, dissemination and disposition of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one's research data. 
 
