@@ -96,11 +96,11 @@ The 25 areas of DRI queried have been split into 4 individual reports, detailing
 
 ## **Full Report**
 
-[Methods](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#methods)
+[Methods](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md/methods)
 <br>
-[Results](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#results)
+[Results](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md/results)
 <br>
-[Discussion and Next Steps](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#discussion-and-next-steps)
+[Discussion and Next Steps](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md/discussion-and-next-steps)
 
 
 
