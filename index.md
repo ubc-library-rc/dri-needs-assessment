@@ -22,10 +22,6 @@ Key findings from the survey indicate a need for increased collaboration among u
 <div class="reportButton library">
   <a href="library.html">Library</a>
 </div>
- 
-<div class="reportButton ors">
-  <a href="ors.html">ORS</a>
-</div>
 
 <div class="reportButton it">
   <a href="it.html">IT</a>
