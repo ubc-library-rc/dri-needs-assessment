@@ -100,7 +100,7 @@ The 25 areas of DRI queried have been split into 4 individual reports, detailing
 
 # Full Report
 
-[Background](
+[Background](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#background)
 <br>
 [Methods](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#methods)
 <br>
