@@ -111,11 +111,11 @@ Digital Research Infrastructure (DRI) refers to a suite of services that enables
 
 As traditionally non-computational disciplines increasingly rely on digital methodologies or approaches, and computationally-centric disciplines need to navigate increasingly large and complex computational environments, there is a growing and wide spread need to support the infrastructural needs of these research projects as well as to ensure that practitioners have the skillsets required to engage in these activities. 
 
-**Context of National DRI**
+### Context of National DRI
 
 The newly formed Digital Research Alliance of Canada (The Alliance) represents a momentous integration of High-Performance Computing (HPC), Research Data Management (RDM), and Research Software (RS) on a national scale.   As this organization aims to develop synergies and collaboration across these historically separate and disconnected services, there is an opportunity for the University of British Columbia (UBC) to align itself with this national vision, and to become a Canadian and sector leader in DRI services.   
 
-**Research Data Management (RDM) Requirements**
+### Research Data Management (RDM) Requirements
 
 In line with the recently released Tri-Agency Research Data Management Policy, all Tri-Agency eligible institutions are required to create a public RDM Institutional Strategy by March 1, 2023. 
 
@@ -123,7 +123,7 @@ RDM requires knowledge of and services to support the creation, processing, diss
 
 RDM and DRI have considerable overlap; and supporting each spans multiple departments and portfolios. As such, UBC's RDM Institutional Strategy represents an opportunity for UBC to design a collaborative and innovative approach to the way in which researchers are trained, supported, and enabled to conduct world-leading research.   
 
-**Purpose**
+### Purpose
 
 In order to ensure that the needs of our research community are being met in an era of rapid development and change, the UBC DRI Needs Assessment sought to investigate the training and support needs of researchers in relation to DRI.  These findings, used in conjunction with the researcher feedback being solicited by the UBC RDM Steering Committee, can help identifying gaps and vacancies in our institutional service offerings, and be used to inform the future desired state of DRI services at UBC. 
 
@@ -133,17 +133,17 @@ In order to ensure that the needs of our research community are being met in an 
 
 This assessment was a joint effort between UBC Advanced Research Computing (ARC) and UBC Library.  The assessment consisted of two elements -  a survey and three follow-up focus groups. 
 
-**Survey**
+### Survey
 
 The UBC DRI Needs Assessment survey ran from May 17th - June 12, 2021.  The survey queried UBC researchers' training and support needs in 25 distinct areas relating to data, software, and computational infrastructure (see Appendix A. for full survey).   The survey was sent to faculty and department contacts for distribution, as well as through various newsletters.   A total of 241 responses were received. 
 
 For the purpose of the survey, training and support were looked at as distinct services, with training being defined as “single workshops, workshop series, online modules/videos, and formal courses”, and support being defined as “web resources, consultations, advising, troubleshooting, and recommendations”.   After entering demographic information, participants were presented with a list of 25 areas of DRI, and were asked to select all those that were relevant to their research.   Following this, each participant was asked to complete questions for each DRI element that was relevant to their research, including whether they needed or wanted training/support, if they sought training/support, and if so, where they went and how satisfied they were with the training/support received.  Participants were also given the option to submit free-text comments at the end of the survey. 
 
-**Focus Groups**
+### Focus Groups
 
 One of the final survey questions asked whether participants would be willing to be contacted for follow-up focus groups.  Of the 23 respondents who indicated they were willing to be contacted, we were able to schedule three focus groups with a total of 11 researchers.  The focus groups were semi-structured, containing scripted questions but also allowing spontaneous follow-up questions and discussion (see Appendix B. for question script).  For each session, two members from the assessment team were present, with one person leading the discussion and the other taking notes.  Sessions were conducted via Zoom, and were recorded as well as transcribed using Zoom’s built-in software.  Videos were deleted after transcripts were exported to a secure storage platform shared with team members, and all transcripts were stripped of identifiers.  While transcripts weren’t formally coded or analyzed, excerpts of relevance were extracted and examined. 
 
-**Limitations**
+### Limitations
 
 The DRI Needs Assessment Survey was designed to scope out awareness and need for support and training in DRI. While free text fields allowed for respondents to provide additional qualitative feedback, the bulk of the survey focused on what was sought or needed and less on why or at what level or in what modality these training and supports were needed or not needed. While the focus groups allowed a deeper dive into these issues, the pool of focus group participants represents a sample biased by both size and discipline. Consequently, while this survey is able to report on the degree of awareness of DRI supports and training and the degree to which DRI training and support are used and from which units or departments, further inquiry is needed to enhance our understanding of specific training and support needs, modalities of delivery, and access points to increase awareness. 
 
@@ -151,7 +151,7 @@ The DRI Needs Assessment Survey was designed to scope out awareness and need for
 
 ## Results
 
-**Demographics**
+### Demographics
 
 The survey began by asking demographic information about participants’ position at UBC, their discipline, as well as their primary work location at UBC.   While Professors made up the largest group of respondents, there was strong representation across all groups except Instructors and Postdoctoral Fellows (see Figure X.).  In terms of research discipline, Medicine and Health Sciences, as well as the Social Sciences and Humanities made up a disproportionate number of respondents (see Figure X.).  The primary work location of respondents was largely the Vancouver campus, although there was significant representation from both the Okanagan campus as well as affiliated hospitals or institutions (see Figure X.) 
 
@@ -181,23 +181,23 @@ Figure X. Participants' Primary Work Location.
 
 <br>
 
-**Findings**
+### Findings
 
 For the purpose of this report, this section will feature the high-level findings from the full population of respondents.  For more granular findings, see the ARC Report, Library Report, ORS Report, and IT Report.   
 
-**_Awareness_**
+### _Awareness_
 
 One of the most striking findings from the survey was the discrepancy between the relatively small number of those that sought training or support, compared to the much larger numbers of those that would have liked training or support but didn’t know they were available (see Figure X. and X.)  Of particular note, is that this gap between those that sought training or support versus those that wanted it spans across nearly all of the 25 DRI elements and the respective portfolios and departments that serve these areas.   
 
 <img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_support-training.png">
 
-**_Dispersion of Support and Training_**
+### _Dispersion of Support and Training_
 
 Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X).  Furthermore, for those that did seek both support and training, many turned to sources outside of UBC for a variety of DRI areas.    
 
 <img style="margin: 20px 0" alt="Need for support/training" src="graphs/overall_where.png">
 
-**_Training Within UBC_**
+### _Training Within UBC_
 
 As mentioned above, a large number of respondents indicated that they sought training outside of UBC.  However, one of the common themes across the focus groups was the desire for more training to be offered within UBC (see Figure X.).  As noted in these quotes, a big motivation for wanting internal training is that this encourages the grows of research communities and networks, for both faculty as well as graduate researchers.   
 
@@ -211,7 +211,7 @@ Figure X.  Focus Group Quotes Regarding Internal Training at UBC.
 
 >_“Empowering graduate students [to] seek out their own network and other graduate students within their institution is always really rewarding for everyone, [and]  it usually leads to a lot of productivity.”_
 
-**_Regularly Offered/Asynchronus Training_**
+### _Regularly Offered/Asynchronus Training_
 
 In addition to the indicated desire for localized training, focus group participants also indicated that having training offered regularly throughout the year would be beneficial, as graduate students arrive throughout the year.  In this same line of discussion, participants indicated that asynchronous or online training would be of value, as it would not only accommodate those who cannot make live training sessions, but is a beneficial supplement to live training.   
 
