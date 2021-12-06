@@ -132,7 +132,7 @@ In order to ensure that the needs of our research community are being met in an 
 
 <br>
 
-### **Methods**
+## Methods
 
 This assessment was a joint effort between UBC Advanced Research Computing (ARC) and UBC Library.  The assessment consisted of two elements -  a survey and three follow-up focus groups. 
 
@@ -152,7 +152,7 @@ The DRI Needs Assessment Survey was designed to scope out awareness and need for
 
 <br>
 
-### **Results**
+## Results
 
 **Demographics**
 
@@ -232,7 +232,7 @@ Figure X. Focus Group Quotes Regarding the Frequency of Training Offerings
 
 <br>
  
-### **Discussion and Next Steps**
+## Discussion and Next Steps
 
 The substantial number of respondents wanting training or support, but not knowing they are available, indicates that DRI services are not being effectively communicated to the research community.  Of particular note is that there is not one single portfolio or area where this is prevalent, but rather, this seems to be a trend that spans the institution and all areas of DRI outlined in the survey.  While there is no definitive explanation as to why current communication efforts may not be effective, these findings suggest that DRI resources across UBC may be underutilized due to a lack of researcher awareness.  Acknowledging that this an institutional issue, the subsequent next steps towards a solution should be considered at an institutional level.  As almost all areas of DRI are served by multiple departments, a logical step would be to initiate a dialogue among these separate units, to begin teasing how they might collaborate and work towards a unified approach to the promotion and discoverability of DRI services at UBC.   
 
