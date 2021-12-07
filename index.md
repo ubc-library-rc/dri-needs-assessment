@@ -26,29 +26,23 @@ title: Digital Research Infrastructure Report
 </div>
 
 <div class="recommendation">
-  <b>Finding 2</b>:  
-  <br>
-  For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC;
-
-   <br>
-   <br>
+  <p><b>Finding 2</b></p>  
   
-  <b>Recommendation 2</b>: 
-  <br>
-  Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
+  <p>For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC</p>
+
+  <p><b>Recommendation 2</b></p> 
+
+  <p>Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication</p>
 </div>
 
 <div class="recommendation">
-  <b>Finding 3</b>: 
-  <br>
-  Participants in focus groups noted that finding the right service is challenging; 
-  
-  <br>
-  <br>
+  <p><b>Finding 3</b></p>
 
-  <b>Recommendation 3</b>: 
-  <br>
-  Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
+  <p>Participants in focus groups noted that finding the right service is challenging</p>
+  
+  <p><b>Recommendation 3</b></p>
+
+  <p>Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services</p>
 </div>
 
 ## Reports
