@@ -29,9 +29,9 @@ _Top 3 areas in which **researchers sought training from IT** (Figure X for full
 
 **Recommendation 2:** As UBC ARC and UBC Library are also leaders in these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services; 
 
-**Finding 3:** Participants in focus groups noted that finding the right service is challenging; 
+**Finding 3:** It was noted in both the survey and focus groups that it is very challenging to find accurate and up-to-date guidance on the intersections of privacy, security, and compliance. 
 
-**Recommendation 3:** Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services. 
+**Recommendation 3:** The UBC IT portfolio is responsible for creating the policies and guidelines for researchers to adhere to, but UBC Ethics gets the bulk of questions about compliance.  This gap should be bridged with resources centralized in a single location to support researchers in their ability to conduct research that properly protects research participants. 
 
 
 ## Highlights
