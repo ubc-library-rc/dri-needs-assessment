@@ -84,7 +84,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ## Reports
 
-The 25 areas of DRI queried have been split into 4 individual reports, detailing if supports and training were needed and where they were sought. Each report is catered to a specific unit and represents core areas of service delivery within each of those units. 
+The 25 areas of DRI queried have been split into 3 individual reports, detailing if supports and training were needed and where they were sought. Each report is catered to a specific unit and represents core areas of service delivery within each of those units. 
 
 <br>
 <br>
