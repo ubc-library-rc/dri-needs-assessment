@@ -13,6 +13,14 @@ title: Digital Research Infrastructure Report
 <p>Key findings from the survey indicate a need for increased collaboration among units providing DRI training and support, and an enhanced communication strategy to engage researchers with DRI campus training and supports.</p>
 </div>
 
+## Definitions
+
+**Training** Single workshops, workshop series, online modules/videos, and formal courses
+
+**Support** Web resources, consultations, advising, troubleshooting, and recommendations
+
+**Digital Research Infrastructure** A suite of services that enables the collection, processing, dissemination, and disposition of research data. 
+
 ## Key Findings & Recommendations
 
 <div class="recommendation">
@@ -58,14 +66,6 @@ While many units on campus support the 25 areas of DRI queried, centrally ARC, U
 <div class = "reportLink">Arc</div>
 <div class = "reportLink">Library</div>
 <div class = "reportLink">IT</div>
-
-## Definitions
-
-**Training**: Single workshops, workshop series, online modules/videos, and formal courses
-
-**Support**: Web resources, consultations, advising, troubleshooting, and recommendations
-
-**Digital Research Infrastructure**: A suite of services that enables the collection, processing, dissemination, and disposition of research data. 
 
 <hr />
 
