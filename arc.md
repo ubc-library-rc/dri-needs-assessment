@@ -6,6 +6,7 @@ title: ARC
 
 <p>ARC occupies a unique position at the intersection of HPC, research data management (RDM), and research software (RS), and leverages this position through collaboration with departments and portfolios across UBC to offer support and training across the range of DRI activities queried in this needs assessment.</p>      
 
+<br>
 
 ### Key Findings & Recommendations
 
