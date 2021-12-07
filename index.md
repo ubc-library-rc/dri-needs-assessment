@@ -57,12 +57,12 @@ title: Digital Research Infrastructure Report
 
 ### Full Report
 
-<a href = "/fullreport.html"><button class = "reportLink fullreportLink ">Read the full report</button></a>
+<a href = "fullreport.html"><button class = "reportLink fullreportLink ">Read the full report</button></a>
 
 ### Unit Reports
 
 While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report.
 
-<a href = "/arc.html"><button class = "reportLink">Arc</button></a>
-<a href = "/library.html"><button class = "reportLink">Library</button></a>
-<a href = "/it.html"><button class = "reportLink">IT</button></a>
+<a href = "arc.html"><button class = "reportLink">Arc</button></a>
+<a href = "library.html"><button class = "reportLink">Library</button></a>
+<a href = "it.html"><button class = "reportLink">IT</button></a>
