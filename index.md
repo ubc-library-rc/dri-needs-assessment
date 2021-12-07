@@ -13,41 +13,16 @@ title: Digital Research Infrastructure Report
 <p>Key findings from the survey indicate a need for increased collaboration among units providing DRI training and support, and an enhanced communication strategy to engage researchers with DRI campus training and supports.</p>
 </div>
 
-## Reports
-
-### Full Report
-
-<div class = "reportLink fullreportLink ">Read the full report</div>
-
-### Unit Reports
-
-While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report.
-
-<div class = "reportLink">Arc</div>
-<div class = "reportLink">Library</div>
-<div class = "reportLink">IT</div>
-
-## Definitions
-
-**Training**: Single workshops, workshop series, online modules/videos, and formal courses
-
-**Support**: Web resources, consultations, advising, troubleshooting, and recommendations
-
-**Digital Research Infrastructure**: A suite of services that enables the collection, processing, dissemination, and disposition of research data. 
-
 ## Key Findings & Recommendations
 
 <div class="recommendation">
-  <b>Finding 1</b>: 
-  <br>
-  Respondents overwhelmingly reported wanting training and support but not knowing they were available;
+  <p><b>Finding 1</b></p> 
 
-    <br>
-    <br>
-  
-  <b>Recommendation 1</b>: 
-  <br>
-  Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services;
+  <p>Respondents overwhelmingly reported wanting training and support but not knowing they were available</p>
+
+  <p><b>Recommendation 1</b></p>
+
+  <p>Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services</p>
 </div>
 
 <div class="recommendation">
@@ -75,6 +50,28 @@ While many units on campus support the 25 areas of DRI queried, centrally ARC, U
   <br>
   Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
 </div>
+
+## Reports
+
+### Full Report
+
+<div class = "reportLink fullreportLink ">Read the full report</div>
+
+### Unit Reports
+
+While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report.
+
+<div class = "reportLink">Arc</div>
+<div class = "reportLink">Library</div>
+<div class = "reportLink">IT</div>
+
+## Definitions
+
+**Training**: Single workshops, workshop series, online modules/videos, and formal courses
+
+**Support**: Web resources, consultations, advising, troubleshooting, and recommendations
+
+**Digital Research Infrastructure**: A suite of services that enables the collection, processing, dissemination, and disposition of research data. 
 
 <hr />
 
