@@ -37,7 +37,7 @@ While UBC IT is a key player in servicing active data storage at UBC, this was a
 <div class="recommendation">
   <b>Finding 2</b>
   <br>
-While UBC IT is a key player in servicing retention/deposition/preservation at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available
+While UBC IT also plays a strong role in servicing retention/deposition/preservation at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available
   
   <br>
   <br>
