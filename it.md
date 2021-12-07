@@ -21,17 +21,44 @@ _Top 3 areas in which **researchers sought training from IT** (Figure X for full
 
 ### Key Findings & Recommendations
 
-**Finding 1:**  While UBC IT is a key player in servicing active data storage at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available; 
+<div class="recommendation">
+  <b>Finding 1</b>: 
+  <br>
+While UBC IT is a key player in servicing active data storage at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available; 
+  
+  <br>
+  <br>
 
-**Recommendation 1:**  As UBC ARC is also a leader in this area, coordinate services across these units to maximize efforts, resources, and discoverability of services;
+<b>Recommendation 1</b>: 
+  <br>
+ As UBC ARC is also a leader in this area, coordinate services across these units to maximize efforts, resources, and discoverability of services;
+  </div>
 
-**Finding 2:**  While UBC IT is a key player in servicing retention/deposition/preservation at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available; 
+<div class="recommendation">
+  <b>Finding 2</b>:  
+  <br>
+While UBC IT is a key player in servicing retention/deposition/preservation at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available; 
+  
+  <br>
+  <br>
 
-**Recommendation 2:** As UBC ARC and UBC Library are also leaders in these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services; 
+ <b>Recommendation 2</b>: 
+  <br>
+  As UBC ARC and UBC Library are also leaders in these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
+  </div>
 
-**Finding 3:** It was noted in both the survey and focus groups that it is very challenging to find accurate and up-to-date guidance on the intersections of privacy, security, and compliance. 
+<div class="recommendation">
+  <b>Finding 3</b>: 
+  <br>
+It was noted in both the survey and focus groups that it is very challenging to find accurate and up-to-date guidance on the intersections of privacy, security, and compliance. 
+  
+  <br>
+  <br>
 
-**Recommendation 3:** The UBC IT portfolio is responsible for creating the policies and guidelines for researchers to adhere to, but UBC Ethics gets the bulk of questions about compliance.  This gap should be bridged with resources centralized in a single location to support researchers in their ability to conduct research that properly protects research participants. 
+<b>Recommendation 3</b>: 
+  <br>
+The UBC IT portfolio is responsible for creating the policies and guidelines for researchers to adhere to, but UBC Ethics gets the bulk of questions about compliance.  This gap should be bridged with resources centralized in a single location to support researchers in their ability to conduct research that properly protects research participants. 
+  </div>
 
 
 ## Highlights
