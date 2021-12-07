@@ -15,7 +15,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 ### Full Report
 
-<div class = "reportLink">Read the full report</div>
+<div class = "reportLink fullreportLink ">Read the full report</div>
 
 ### Unit Reports
 
