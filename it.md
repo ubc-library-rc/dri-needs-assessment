@@ -25,10 +25,9 @@ _Top 3 areas in which **researchers sought training from IT** (Figure X for full
 
 **Recommendation 1:**  As UBC ARC is also a leader in this area, coordinate services across these units to maximize efforts, resources, and discoverability of services;
 
-**Finding 2:**  For DRI areas in which researchers turned to IT for training and support, multiple other support groups, including those outside UBC, were also sought; 
+**Finding 2:**  While UBC IT is a key player in servicing retention/deposition/preservation at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available; 
 
-**Recommendation 2:** Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication; 
-
+**Recommendation 2:** As UBC ARC and UBC Library are also leaders in these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services; 
 
 **Finding 3:** Participants in focus groups noted that finding the right service is challenging; 
 
