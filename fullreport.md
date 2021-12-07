@@ -2,7 +2,7 @@
 title: Full Report
 ---
 
-## Full Report
+## Table of Contents
 
 * [Background](#background)
 * [Methods](#methods) 
