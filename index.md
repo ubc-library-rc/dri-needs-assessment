@@ -25,7 +25,7 @@ title: Digital Research Infrastructure Report
 
 <div class="recommendation">
   <p><b>Finding 1</b> 
-
+    <br>
   Respondents overwhelmingly reported wanting training and support but not knowing they were available</p>
 
   <p><b>Recommendation 1</b></p>
