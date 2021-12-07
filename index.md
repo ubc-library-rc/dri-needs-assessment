@@ -24,9 +24,9 @@ title: Digital Research Infrastructure Report
 ## Key Findings & Recommendations
 
 <div class="recommendation">
-  <p><b>Finding 1</b></p> 
+  <p><b>Finding 1</b> 
 
-  <p>Respondents overwhelmingly reported wanting training and support but not knowing they were available</p>
+  Respondents overwhelmingly reported wanting training and support but not knowing they were available</p>
 
   <p><b>Recommendation 1</b></p>
 
