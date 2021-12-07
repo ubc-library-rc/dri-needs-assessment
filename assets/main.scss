@@ -23,6 +23,11 @@
   font-size: 100%;
 }
 
+.reportLink::hover {
+  background-color: #002145;
+  color: #ffffff;
+}
+
 .fullreportLink {
   clear: right;
 }
