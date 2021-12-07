@@ -3,7 +3,7 @@ title: IT
 ---
 
 ## Executive Summary
-For the purpose of this sub-report, the content will be limited to the DRI categories in which researchers sought either training or support from UBC IT.     
+   
 
 ### Top Reasons People Come to IT
 
