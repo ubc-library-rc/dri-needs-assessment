@@ -21,7 +21,7 @@ _Top 3 areas in which **researchers sought training from IT** (Figure X for full
 
 ### Key Findings & Recommendations
 
-**Finding 1:**  While IT is a key player in servicing active data storage at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available; 
+**Finding 1:**  While UBC IT is a key player in servicing active data storage at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available; 
 
 **Recommendation 1:**  As UBC ARC is also a leader in this area, coordinate services across these units to maximize efforts, resources, and discoverability of services;
 
