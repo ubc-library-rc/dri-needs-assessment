@@ -17,19 +17,44 @@ ARC occupies a unique position at the intersection of HPC, research data managem
 
 ### Key Findings & Recommendations
 
-**Finding 1:**  While ARC is a key player in servicing active data storage and data retention/deposit/preservation at UBC, these were top areas in which researchers wanted both training and support, but didn’t know they were available;
-
-**Recommendation 1:**  As UBC Library and UBC IT are also leaders in both these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
+<div class="recommendation">
+  <b>Finding 1</b>: 
+  <br>
+While ARC is a key player in servicing active data storage and data retention/deposit/preservation at UBC, these were top areas in which researchers wanted both training and support, but didn’t know they were available;
  
+ <br>
+ <br>
+
+ <b>Recommendation 1</b>: 
+ <br>
+As UBC Library and UBC IT are also leaders in both these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
+</div> 
  
-**Finding 2:**  ARC sits as a close second behind UBC Library as a leader in DMP support and training, and this is an area in which a vast majority of respondents wanted both training and support, but didn’t know they were available;
+<div class="recommendation">
+  <b>Finding 2</b>:  
+  <br>
+ARC sits as a close second behind UBC Library as a leader in DMP support and training, and this is an area in which a vast majority of respondents wanted both training and support, but didn’t know they were available;
+ 
+ <br>
+ <br>
 
-**Recommendation 2:**  Coordinate DMP and other RDM services with the Library to maximize efforts, resources, and discoverability of services;
+  <b>Recommendation 2</b>: 
+  <br>
+ Coordinate DMP and other RDM services with the Library to maximize efforts, resources, and discoverability of services;
+</div>
 
+<div class="recommendation">
+  <b>Finding 3</b>: 
+  <br>
+Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  Additionally, several comments in the survey indicated that introductory ARC training is too difficult for beginners;
+ 
+ <br>
+ <br>
 
-**Finding 3:**  Coding/programming is a top area in which researchers are seeking training from ARC, but 85% of researchers are still seeking training elsewhere (with the majority going outside UBC).  Additionally, several comments in the survey indicated that introductory ARC training is too difficult for beginners;
-
-**Recommendation 3:**  Identify partners within UBC to determine training and support that is feasible to offer, and what external training can be endorsed and communicated.  Leverage partnerships to build a coding/programming curriculum, beginning with the very basic and leading to HPC training, as a way to build a larger base of researchers who are capable of effectively utilizing ARC resources and conducting world-class research.  
+ <b>Recommendation 3</b>: 
+  <br>
+Identify partners within UBC to determine training and support that is feasible to offer, and what external training can be endorsed and communicated.  Leverage partnerships to build a coding/programming curriculum, beginning with the very basic and leading to HPC training, as a way to build a larger base of researchers who are capable of effectively utilizing ARC resources and conducting world-class research.  
+</div>
 
 
 
