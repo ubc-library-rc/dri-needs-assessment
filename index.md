@@ -26,31 +26,40 @@ title: Digital Research Infrastructure Report
 <div class="recommendation">
  <b>Finding 1</b> 
     <br>
-  Respondents overwhelmingly reported wanting training and support but not knowing they were available</p>
+  Respondents overwhelmingly reported wanting training and support but not knowing they were available
 
-  <p><b>Recommendation 1</b></p>
-
-  <p>Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services</p>
+ <br>
+ <br>
+ 
+  <b>Recommendation 1</b>
+  <br>
+  Coordinate and strategize communications across portfolios and departments to ensure that researchers are able to easily find and access services
 </div>
 
 <div class="recommendation">
-  <p><b>Finding 2</b></p>  
-  
-  <p>For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC</p>
+ <b>Finding 2</b>
+ <br>
+ For every element of DRI investigated, training and support were sought across multiple portfolios and departments, as well as outside of UBC
+ 
+ <br>
+ <br>
 
-  <p><b>Recommendation 2</b></p> 
-
-  <p>Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication</p>
+ <b>Recommendation 2</b>
+ <br>
+Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication
 </div>
 
 <div class="recommendation">
-  <p><b>Finding 3</b></p>
-
-  <p>Participants in focus groups noted that finding the right service is challenging</p>
+<b>Finding 3</b>
+ <br>
+ Participants in focus groups noted that finding the right service is challenging
+ 
+ <br>
+ <br>
   
-  <p><b>Recommendation 3</b></p>
-
-  <p>Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services</p>
+  <b>Recommendation 3</b>
+ <br>
+ Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services
 </div>
 
 ## Reports
