@@ -9,12 +9,17 @@
   float: left;
   text-align: center;
   padding: 20px 0;
-  font-size: 14px;
+  color: #002145;
   border: 1px solid #40B4E5;
 }
 
 .fullreportLink {
   clear: right;
+}
+
+h3 {
+  width: 100%;
+  display: inline-block;
 }
 
 .reportButton {
