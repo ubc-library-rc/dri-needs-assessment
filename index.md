@@ -92,7 +92,7 @@ While many units on campus support the 25 areas of DRI queried, centrally ARC, U
 
 ## Full Report
 
-[Background](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#background)
+[Background](https://github.com/ubc-library-rc/dri-needs-assessment#background)
 <br>
 [Methods](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#methods) 
 <br>
