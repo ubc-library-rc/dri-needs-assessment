@@ -3,9 +3,7 @@ permalink: /
 title: Digital Research Infrastructure Report
 ---
 
-
-# Executive Summary
-
+## Executive Summary
 
 Digital Research Infrastructure (DRI) refers to a suite of services that enables the collection, processing, dissemination and disposition, of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one’s research data.
 
@@ -13,8 +11,21 @@ From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC
 
 Key findings from the survey indicate a need for increased collaboration among units providing DRI training and support, and an enhanced communication strategy to engage researchers with DRI campus training and supports. 
 
-## Definitions
+## Reports
 
+### Full Report
+
+<div class = "reportLink">Read the full report</div>
+
+### Unit Reports
+
+While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report.
+
+<div class = "reportLink">Arc</div>
+<div class = "reportLink">Library</div>
+<div class = "reportLink">IT</div>
+
+## Definitions
 
 **Training**: Single workshops, workshop series, online modules/videos, and formal courses
 
@@ -22,10 +33,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 **Digital Research Infrastructure**: A suite of services that enables the collection, processing, dissemination, and disposition of research data. 
 
-<br>
-
 ## Key Findings & Recommendations
-
 
 <div class="recommendation">
   <b>Finding 1</b>: 
@@ -68,11 +76,7 @@ Key findings from the survey indicate a need for increased collaboration among u
 
 <hr />
 
-# Report
-
-## Unit Reports
-
-While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report.
+## Reports
 
 <div class="reportButton arc">
   <a href="arc.html">ARC</a>
