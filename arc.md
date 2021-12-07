@@ -17,7 +17,7 @@ ARC occupies a unique position at the intersection of HPC, research data managem
 
 ### Key Findings & Recommendations
 
-**Finding 1:**  While ARC is a key player in active data storage and data retention/deposit/preservation at UBC, these were top areas in which researchers wanted both training and support, but didn’t know they were available;
+**Finding 1:**  While ARC is a key player in servicing active data storage and data retention/deposit/preservation at UBC, these were top areas in which researchers wanted both training and support, but didn’t know they were available;
 
 **Recommendation 1:**  As UBC Library and UBC IT are also leaders in both these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services;
  
