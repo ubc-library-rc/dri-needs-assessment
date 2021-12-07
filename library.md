@@ -11,31 +11,21 @@ On the Vancouver campus, DRI activities in the realms of RDM, and tools for data
 <div class="recommendation">
   <p><b>Finding 1</b></p>
 
-  <p>As a leader in RDM services and training, a surprising number of respondents either were unaware of these supports or looked outside the library for support</p>
+  <p>Many respondents were either unaware of the RDM supports and training available from the lirbary and frequently looked outside the library for RDM supports and training.</p>
 
   <p><b>Recommendation 1</b></p> 
 
-  <p>Figure out why, and revisit communication strategies</p>
+  <p>As a leader in RDM services with a dedicated RDM Librarian and an RDM Team that spans both campuses, alongside national partnerships, the library is in a strong position to support RDM. Investigation into why these supports and training are not on the radar of much of the research community suggests either a need to re-evaluate our communications strategy or increase partnerships where researchers are seeking supports.</p>
  </div>
 
 <div class="recommendation">
   <p><b>Finding 2</b></p>
   
-    <p>Aside from DMPs, the library was often the least accessed unit for support across DRI elements in the survey</p>
+    <p>UBC Library was frequently the least accessed unit for support across DRI supports and training.</p>
 
   <p><b>Recommendation 2</b></p>
 
-  <p>The library is a place to ask questions and has potential to operate as a central portal to many services on campus. There is opportunity here to coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication</p>
-  </div>
-
-<div class="recommendation">
-  <p><b>Finding 3</b></p>
-
-  <p>UBC Library was frequently a point of contact for both training and support across a wide range of DRI services</p>
-
-  <p><b>Recommendation 3</b></p>
-
-  <p>There is room for both expansion of services, better communication of existing services, and opportunities for coordination across portfolios and  departments that provide DRI services to build a central portal for the  easy discovery of services</p>
+  <p>UBC Library, in particular through the Research Commons, provides graduate level training and faculty support across a range of DRI activities, most notably in the realm of digital scholarship, GIS, RDM, and data analysis. Many of these are supported by higher level training and infrastrcuture support by ARC. There is strong potential growth in these offerings given the number of researchers either unaware of these supports or looking elsewhere on campus for support. At the same time, there is concern that the training provided by ARC is too advanced. There is particaulr opportunity to harmonize a continuity of training and support across a breadth of skill levels working more closely with ARC.</p>
   </div>
 
 ## Top Reasons People Seek Out UBC Library
