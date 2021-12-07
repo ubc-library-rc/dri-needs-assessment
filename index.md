@@ -4,30 +4,14 @@ title: Digital Research Infrastructure Report
 ---
 
 
-## Executive Summary
+# Executive Summary
 
 
 Digital Research Infrastructure (DRI) refers to a suite of services that enables the collection, processing, dissemination and disposition, of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one’s research data.
 
-From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched the DRI Needs Assessment Survey to investigate UBC researchers’ needs in 25 distinct areas relating to DRI (see full details of survey [insert link]), receiving 241 total responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights in these areas.
+From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched the DRI Needs Assessment Survey to investigate UBC researchers’ needs in 25 distinct areas relating to DRI (see full details of survey [insert link]). the survey received a total of 241 responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights.
 
 Key findings from the survey indicate a need for increased collaboration among units providing DRI training and support, and an enhanced communication strategy to engage researchers with DRI campus training and supports. 
-
-<span style="font-size:0.8em;">The buttons below link to subreports tailored to the corresponding portfolio.</span>
-
-<div class="reportButton arc">
-  <a href="arc.html">ARC</a>
-</div>
-
-<div class="reportButton library">
-  <a href="library.html">Library</a>
-</div>
-
-<div class="reportButton it">
-  <a href="it.html">IT</a>
-</div>
-
-<br>
 
 ## Definitions
 
@@ -82,18 +66,27 @@ Key findings from the survey indicate a need for increased collaboration among u
   Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
 </div>
 
-## Reports
+<hr />
 
-The 25 areas of DRI queried have been split into three individual reports, detailing if supports and training were needed and where they were sought. Each report is catered to a specific unit and represents core areas of service delivery within each of those units. 
+# Report
 
-<br>
-<br>
+## Unit Reports
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report.
 
-<br>
+<div class="reportButton arc">
+  <a href="arc.html">ARC</a>
+</div>
 
-# Full Report
+<div class="reportButton library">
+  <a href="library.html">Library</a>
+</div>
+
+<div class="reportButton it">
+  <a href="it.html">IT</a>
+</div>
+
+## Full Report
 
 [Background](https://github.com/ubc-library-rc/dri-needs-assessment/blob/main/index.md#background)
 <br>
