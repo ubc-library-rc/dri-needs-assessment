@@ -35,15 +35,42 @@ _Top 3 areas in which **researchers sought training from the Library** (Figure 2
 
 ## Key Findings & Recommendations
 
-**Finding 1:** As a leader in RDM services and training, a surprising number of respondents either were unaware of these supports or looked outside the library for support;
+<div class="recommendation">
+  <b>Finding 1</b>: 
+  <br>
+As a leader in RDM services and training, a surprising number of respondents either were unaware of these supports or looked outside the library for support;
+  
+  <br>
+  <br>
 
-**Recommendation 1:**  Figure out why, and revisit communication strategies;
+<b>Recommendation 1</b>: 
+  <br>
+  Figure out why, and revisit communication strategies;
+ </div>
 
-**Finding 2:**  Aside from DMPs, the library was often the least accessed unit for support across DRI elements in the survey.
+<div class="recommendation">
+  <b>Finding 2</b>:  
+  <br>
+Aside from DMPs, the library was often the least accessed unit for support across DRI elements in the survey.
+  
+  <br>
+  <br>
 
-**Recommendation 2:** The library is a place to ask questions and has potential to operate as a central portal to many services on campus. There is opportunity here to coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
+<b>Recommendation 2</b>: 
+  <br>
+The library is a place to ask questions and has potential to operate as a central portal to many services on campus. There is opportunity here to coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication;
+  </div>
 
-**Finding 3:** UBC Library was frequently a point of contact for both training and support across a wide range of DRI services.
+<div class="recommendation">
+  <b>Finding 3</b>: 
+  <br>
+UBC Library was frequently a point of contact for both training and support across a wide range of DRI services.
+  
+  <br>
+  <br>
 
-**Recommendation 3:** There is room for both expansion of services, better communication of existing services, and opportunities for coordination across portfolios and  departments that provide DRI services to build a central portal for the  easy discovery of services.
+<b>Recommendation 3</b>: 
+  <br>
+There is room for both expansion of services, better communication of existing services, and opportunities for coordination across portfolios and  departments that provide DRI services to build a central portal for the  easy discovery of services.
+  </div>
 
