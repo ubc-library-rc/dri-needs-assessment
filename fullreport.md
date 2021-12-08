@@ -68,7 +68,7 @@ Figure X. Participants' Position at UBC.
 <img style="margin: -20px 0" alt="Need for support/training" src="graphs/overall_position.PNG">
 
 <br>
-<br<
+<br>
 
 Figure X. Participants' Research Discipline.
 
