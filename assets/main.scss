@@ -75,8 +75,9 @@
   .graph {
     position: relative;
     top: -40px;
-    margin: 0, 20px;
-    width: 85%
+    margin: auto;
+    display: inherit;
+    width: 85%;
   }
 
 /* not sure these are still being used (comment MVD 20211208) */
