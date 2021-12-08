@@ -2,22 +2,10 @@
 title: UBC IT
 ---
 
-UBC’s department of Information Technology (UBC IT) plays an important role in supporting DRI at UBC, providing the research community with access to infrastructure, software and digital tools, as well as privacy and security to ensure that sensitive research data is properly protected. Given UBC IT’s position within the DRI ecosystem and the number of responses received in the Needs Assessment survey and focus groups, this summary report highlights current areas in which various DRI support and training is sought from UBC IT. Additionally, this report suggests where additional collaboration across departments may strengthen DRI services across UBC as a whole. 
+UBC’s department of Information Technology (UBC IT) plays an important role in supporting DRI at UBC, providing the research community with access to infrastructure, software and digital tools, as well as privacy and security services to ensure that sensitive research data is properly protected. Given UBC IT’s position within the DRI ecosystem and the number of responses received in the Needs Assessment survey and focus groups, this summary report highlights current areas in which various DRI support and training is sought from UBC IT. Additionally, this report suggests where additional collaboration across departments may strengthen DRI services across UBC as a whole. 
+
+As the Needs Assessment team does not have a representative from UBC IT, this page should not be seen as representing the views of IT, but should rather be considered as food for thought and to potentially initiate discussions around cross-departmental collaboration.  
    
-
-### Top Reasons People Come to IT
-
-_Top 3 areas in which **researchers sought support from IT** (Figure X for full details)_
-
-1. Hardware purchasing: 36% of researchers who sought support went to IT 
-2. Active data storage: 29% of researchers who sought support went to IT 
-3. Security: 25% of researchers who sought support went to IT 
-
-_Top 3 areas in which **researchers sought training from IT** (Figure X for full details)_ 
-
-1. Security: 42% of researchers who sought training went to IT 
-2. Hardware purchasing: 42% of researchers who sought training went to IT 
-3. Privacy: 21% of researchers who sought training went to IT 
 
 ### Key Findings & Recommendations
 
@@ -63,6 +51,26 @@ The UBC IT portfolio is responsible for creating the policies and guidelines for
 
 ## Highlights
 
-<img class="figure-sub" alt="Need for support/training" src="graphs/UBC_IT_support-training.png">
+### DRI Support & UBC IT
 
-<img class="figure-sub" alt="Places support is sought" src="graphs/UBC_IT_where.png">
+1. Hardware purchasing: 36% of researchers who sought support went to IT 
+2. Active data storage: 29% of researchers who sought support went to IT 
+3. Security: 25% of researchers who sought support went to IT 
+
+<br>
+**Figure 1**
+
+<img class="graph" alt="Places support is sought" src="graphs/UBCIT_support_where.png">
+
+### DRI Training & UBC IT
+
+1. Security: 42% of researchers who sought training went to IT 
+2. Hardware purchasing: 42% of researchers who sought training went to IT 
+3. Privacy: 21% of researchers who sought training went to IT 
+
+<br>
+**Figure 2**
+
+<img class="graph" alt="Places support is sought" src="graphs/UBCIT_training_where.png">
+
+
