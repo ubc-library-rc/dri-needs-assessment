@@ -1,5 +1,5 @@
 ---
-title: IT
+title: UBC IT
 ---
 
 UBC’s department of Information Technology (UBC IT) plays an important role in supporting DRI at UBC, providing the research community with access to infrastructure, software and digital tools, as well as privacy and security to ensure that sensitive research data is properly protected. Given UBC IT’s position within the DRI ecosystem and the number of responses received in the Needs Assessment survey and focus groups, this summary report highlights current areas in which various DRI support and training is sought from UBC IT. Additionally, this report suggests where additional collaboration across departments may strengthen DRI services across UBC as a whole. 
