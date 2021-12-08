@@ -65,7 +65,7 @@ $scrollLength: 100vh;
   // Required for best support in browsers not supporting `sticky`
   width: 3em;
   // Disable interaction with this element
-  pointer-events: none;
+  // pointer-events: none;
 }
 
 .reportButton {
