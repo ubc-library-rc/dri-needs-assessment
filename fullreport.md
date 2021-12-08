@@ -61,25 +61,31 @@ The survey began by asking demographic information about participants’ positio
 Figure X. Participants' Position at UBC.
 
 <br>
+<br>
 
 <img style="margin: -20px 0" alt="Need for support/training" src="graphs/overall_position.PNG">
 
 <br>
+<br<
 
 Figure X. Participants' Research Discipline.
 
+<br>
 <br>
 
 <img style="margin: -20px 0" alt="Need for support/training" src="graphs/overall_disciplines.PNG">
 
 <br>
+<br>
 
 Figure X. Participants' Primary Work Location.
 
 <br>
+<br>
 
 <img style="margin: -20px 0" alt="Need for support/training" src="graphs/overall_location.PNG">
 
+<br>
 <br>
 
 ### Findings
