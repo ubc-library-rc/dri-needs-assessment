@@ -2,6 +2,8 @@
 title: Full Report
 ---
 
+<div id = "top"></div>
+
 ## Table of Contents
 
 * [Background](#background)
@@ -167,4 +169,8 @@ In line with a future state of centralized DRI services within UBC, part of this
 **Figure X**
 
 <img class="graph" alt="Need for training by topic" src="graphs/detailed_training.png">
+
+<div class="back-to-top-wrapper">
+    <a href="#top" class="back-to-top-link" aria-label="Scroll to Top">🔝</a>
+  </div>
 
