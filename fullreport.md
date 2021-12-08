@@ -168,6 +168,6 @@ In line with a future state of centralized DRI services within UBC, part of this
 
 <img class="graph" alt="Need for training by topic" src="graphs/detailed_training.png">
 
-<a href="#top" class="back-to-top-link" aria-label="Scroll to Top"><button class="back-to-top-wrapper">🔝</button></a>
+<a href="#top" class="back-to-top-link">🔝</a>
 
 
