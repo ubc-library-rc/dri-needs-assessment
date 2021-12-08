@@ -50,24 +50,6 @@ h3 {
   padding: 0.25rem;
 }
 
-$scrollLength: 100vh;
-
-.back-to-top-wrapper {
-  // uncomment to visualize "track"
-  // outline: 1px solid red;
-  position: absolute;
-  top: $scrollLength;
-  right: 0.25rem;
-  // Optional, extends the final link into the
-  // footer at the bottom of the page
-  // Set to `0` to stop at the end of `main`
-  bottom: -5em;
-  // Required for best support in browsers not supporting `sticky`
-  width: 3em;
-  // Disable interaction with this element
-  // pointer-events: none;
-}
-
 .reportButton {
   width: 30%;
   margin: 1%;
