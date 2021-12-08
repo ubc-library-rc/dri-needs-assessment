@@ -85,7 +85,7 @@
     margin: auto;
     display: inherit;
     width: 85%;
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast; /* ensures images aren't renderred blury on Chrome for Mac */
   }
   .graphSmall {
     width: 65%; /* some of the graphs look better at 65% width instead of 85% */
