@@ -101,12 +101,12 @@ One of the most striking findings from the survey was the discrepancy between th
 <br/>
 **Figure X**
 
-<img class="graph" alt="Need for support" src="graphs/overall_support.png">
+<img class="graph graphSmall" alt="Need for support" src="graphs/overall_support.png">
 
 
 **Figure X**
 
-<img class="graph" alt="Need for training" src="graphs/overall_training.png">
+<img class="graph graphSmall" alt="Need for training" src="graphs/overall_training.png">
 
 
 ### Dispersion of Support and Training_
