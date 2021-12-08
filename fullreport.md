@@ -102,7 +102,7 @@ Another notable finding is that of the respondents that sought training or suppo
 <br/>
 **Figure X**
 
-<img class="graph" style="width: 80%" alt="Need for support/training" src="graphs/overall_where.png">
+<img class="graph" alt="Need for support/training" src="graphs/overall_where.png">
 
 ### Training Within UBC
 

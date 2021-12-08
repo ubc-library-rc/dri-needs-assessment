@@ -1,7 +1,7 @@
 ---
 title: 'Graphs for DRI Needs Assessment report'
 author: 'Jeremy Buhler'
-date: 'Nov 12, 2021'
+date: 'Dec 7, 2021'
 output: html_document
 ---
 
@@ -171,141 +171,108 @@ graph_data <- pivot3 %>%
 
 # Overall "need for training/support" graph
 ```{r}
+for (i in type) {
+  
+graph_data_subset <- graph_data %>%
+  filter(question == i)
 
 # `item` ordered by totals of `sort_include` variable
-graph_data$item <- fct_reorder(graph_data$item,graph_data$sort_include,sum)
+graph_data_subset$item <- fct_reorder(graph_data_subset$item,graph_data_subset$sort_include,sum)
 
-overall_graph <- graph_data %>%
-  filter(question == "Support"|question == "Training") %>%
+overall_graph <- graph_data_subset %>%
   mutate(response = str_match(response,"(.*(additional|liked))")[,2]) %>%
   mutate(response = str_replace(response,"liked","liked*")) %>%
   group_by(item_group,item,short_response) %>%
   ggplot(
     aes(y=item, fill=response))+
     geom_bar() +
-    labs(y="",x="# of respondents", fill="", title="Support and training by topic: all topics", subtitle="All topics selected by at least one survey respondent", caption="* I would have liked support/training but did not know it was available")+
-    scale_fill_brewer(palette = "Greens")+
-    facet_wrap(vars(question)) +
+    labs(y="",x="# of respondents", fill="", title=paste("Need for",tolower(i),"by topic"), caption=paste("* I would have liked",tolower(i),"but did not know it was available"))+
+      scale_fill_brewer(palette = "Greens", limits = c("I would have liked*", "I sought additional", "I did not need additional"), direction=-1) +
     theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10, color="#606060"), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0))) 
 
-ggsave("graphs/detailed_support-training.png")
+ggsave(paste0("graphs/detailed_",tolower(i),".png"), width=7.29, height=5.5, units="in")
 print(overall_graph)
+}
 
 ```
 
 
-# Units for which graphs are required
+# Units for which individual graphs are required
 ```{r}
-unit <- c("UBC ARC", "UBC Library", "UBC IT", "UBC ORS")
+unit <- c("ARC", "Library", "UBC IT")
+```
+
+# Type of graph (support/training)
+```{r}
+type <- c("Support", "Training")
 ```
 
 
-# Unit-specific "need for training/support" graphs
 ```{r}
-for (i in unit) {
-
-# create subset for SupportWhere graphs
+for (i in type) {
+  
 graph_w <- pivot3 %>%
-  filter(question == "SupportWhere"|question == "TrainingWhere",item != "Other", response != "") %>%
-  mutate(short_response = case_when(
-       str_detect(response, paste0(".*",i,".*")) ~ i,
-       str_detect(response,"Support outside UBC", negate = TRUE) ~ "Other UBC unit/dept",
-       TRUE ~ "Outside UBC"))
-
-# create list of `items` where at least one person sought support from selected unit 
-unit_subset <- graph_w %>%
-  filter(short_response == i) %>%
-  select(item) %>%
+  select(id,question,item,response) %>%
+  filter(response != "") %>%
+  filter(question == paste0(i,"Where")) %>%
+  separate_rows(response,sep=",") %>%
+  mutate(response = case_when(
+            response == "UBC Library" ~ "Library",
+            response == "UBC ARC" ~ "ARC",
+            response == "UBC IT" ~ "UBC IT",
+            str_detect(response,"outside UBC") ~ "Outside UBC",
+            TRUE ~ "Other UBC")) %>%
   distinct()
 
-# `item` ordered by totals of `sort_include` variable
-graph_data$item <- fct_reorder(graph_data$item,graph_data$sort_include,sum)
+for (u in unit) {
+graph_w <- graph_w %>%
+  mutate(response = fct_relevel(response, 
+            u, after=0)) %>%
+  mutate(response = fct_relevel(response, "Other UBC", after=Inf)) %>%
+  mutate(response = fct_relevel(response, "Outside UBC", after=Inf)) %>%
+  mutate(response = fct_rev(response)) %>%
+  mutate(sort_include = if_else(response == u,1,0)) %>%
+  mutate(item = fct_reorder(item,sort_include,sum))
 
-# generate support graphs
-output_st <- graph_data %>%
-  filter(question == "Support"|question == "Training", item %in% unit_subset$item) %>%
-  mutate(response = str_match(response,"(.*(additional|liked))")[,2]) %>%
-  mutate(response = str_replace(response,"liked","liked*")) %>%
-  group_by(item,short_response) %>%
+output_w <- graph_w %>% 
   ggplot(
     aes(y=item, fill=response))+
     geom_bar() +
-    labs(y="",x="# of respondents", fill="", title=paste("Support and training by topic:",i,"subset"), subtitle=paste("Topics for which one or more respondents sought support or training from",i), caption="* I would have liked support/training but did not know it was available")+
-    scale_fill_brewer(palette = "Greens")+
-    facet_wrap(vars(question)) +
+    labs(y="",x="# of respondents", fill="", title=paste("Places",tolower(i), "is sought, by topic:",u,"view"))+
+    scale_fill_manual(values=c('#FEE6CE','#FDBB83','#F16813','#A63602','#1F78B4')) +
+    guides(fill = guide_legend(reverse = TRUE)) +
     theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10, color="#606060"), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
 
-ggsave(paste0("graphs/",str_replace(i," ","_"),"_support-training.png"))
-print(output_st)
-}
-```
-
-
-# Unit-specific "where sought support/training" graphs
-```{r}
-for (i in unit) {
-
-# create subset for graphs and set parameters for "sort_include" variable
-graph_w <- pivot3 %>%
-  filter(question == "TrainingWhere"|question == "SupportWhere", item != "Other", response != "") %>%
-  mutate(question = str_extract(question,"(Support|Training)")) %>%
-  mutate(short_response = case_when(
-       str_detect(response, paste0(".*",i,".*")) ~ i,
-       str_detect(response,"outside UBC", negate = TRUE) ~ "Other UBC unit/dept",
-       TRUE ~ "Outside UBC")) %>%
-mutate(sort_include = if_else(short_response == i,1,0))
-
-# reorder levels so selected "unit" is always the same color (otherwise color is assigned alphabetically)
-  graph_w$short_response <- factor(graph_w$short_response, levels = c("Outside UBC","Other UBC unit/dept",i))
-
-# create list of `items` where at least one person sought support from selected unit 
-unit_subset <- graph_w %>%
-  filter(short_response == i) %>%
-  select(item) %>%
-  distinct()
-
-# `item` ordered by totals of `sort_include` variable
-graph_w$item <- fct_reorder(graph_w$item,graph_w$sort_include,sum)
-
-# generate trainingWhere/supportWhere graphs
-output_w <- graph_w %>% 
-  filter(short_response != "NA/blank") %>%
-  filter(item %in% unit_subset$item) %>%
-  group_by(item,short_response) %>%
-  ggplot(
-    aes(y=item, fill=short_response))+
-    geom_bar() +
-    labs(y="",x="# of respondents", fill="", title=paste("Places training/support is sought by topic:",i,"subset"), subtitle=paste("Topics for which one or more respondents sought support or training from",i))+
-    scale_fill_brewer(palette = "Oranges") +
-    facet_wrap(vars(question)) +
-    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10, color="#606060"), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
-
-ggsave(paste0("graphs/",str_replace(i," ","_"),"_where.png"))
+ggsave(paste0("graphs/",u,"_",tolower(i),"_where.png"), width=7.29, height=5.5, units="in")
 print(output_w)
+  
+}
 }
 ```
-
 
 
 ### Support/training overall graph (# of instances)
 
 ```{r}
 # set custom palette so colors match other graphs in the report
-custom_greens <- brewer.pal(3,"Greens")[2:3]
+custom_greens <- brewer.pal(3,"Greens")
 
-graph_data %>% 
-  filter(str_detect(short_response,"I would have liked") == TRUE | str_detect(short_response,"I sought additional") == TRUE) %>%
+for (i in type) {
+
+output_overall <- graph_data %>% 
+  filter(question == i) %>%
   mutate(short_response = str_remove(short_response," (training|support)")) %>%
   mutate(short_response = str_replace(short_response,"liked","liked*")) %>%
   ggplot(
     aes(y=short_response, fill=short_response,))+
     geom_bar() +
-    facet_wrap(vars(question)) +
-    labs(y="",x="# of instances", fill="", title="Need for support and training", caption = '* I would have liked support/training but did not know it was available' )+
+    labs(y="",x="# of instances", fill="", title=paste("Need for",tolower(i)), caption = paste('* I would have liked',tolower(i), "but did not know it was available") )+
     scale_fill_manual(values = custom_greens) +
     theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10), aspect.ratio = 1/4, legend.position = "none", plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0)))
 
-ggsave("graphs/overall_support-training.png")
+ggsave(paste0("graphs/overall_",tolower(i),".png"), width=5.5, height=2, units="in")
+print(output_overall)
+}
 ```
 
 
@@ -340,6 +307,6 @@ unit_mentions %>%
     facet_wrap(vars(question)) +
     theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10, color="#606060"), plot.caption=element_text(face = "italic", color="#606060"), legend.position = "none")
 
-ggsave("graphs/overall_where.png")
+ggsave("graphs/overall_where.png", width=7.29, height=3.5, units="in", dpi=320)
 ```
 
