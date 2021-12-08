@@ -2,7 +2,7 @@
 title: Full Report
 ---
 
-<div id = "top"><h2>able of Contents</h2></div>
+<div id = "top"><h2>Table of Contents</h2></div>
 
 * [Background](#background)
 * [Methods](#methods) 
