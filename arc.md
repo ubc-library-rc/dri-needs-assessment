@@ -59,11 +59,20 @@ _Top 3 areas in which **researchers sought support from ARC** (Figure X for full
 2. Active Data Storage: 21% of researchers who sought support went to ARC
 3. Data Retention/Deposit/Preservation: 23% of researchers who sought support went to ARC
 
+<br/>
+**Figure 1**
+
+<img class="graph" alt="Places support is sought" src="graphs/ARC_support_where.png">
+
+
 _Top 3 areas in which **researchers sought training from ARC** (Figure X for full details)_
 
 1. High-Performance Computing: 35% of researchers who sought training went to ARC
 2. Coding/Programming:  15% of researches who sought training went to ARC
 3. Cloud Computing:  23% of researches who sought training went to ARC
 
+<br/>
+**Figure 2**
 
+<img class="graph" alt="Places training is sought" src="graphs/ARC_training_where.png">
 

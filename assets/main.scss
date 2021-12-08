@@ -96,3 +96,13 @@ h3 {
   margin-bottom: 20px;
   background: #f0f6fa;
 }
+
+
+/* Jeremy added the "graph" class for graphs he added to the report. The "position" and "top" settings float the graph up so the title is on about the same line as the "Figure X" title that introduces it. I add a new class instead of updating an existing one because I didn't want to interfere with other work, but our figure/graph classes could be simplified  */
+
+.graph {
+  position: relative;
+  top: -40px;
+  margin: 0, 20px;
+  width: 85%
+}

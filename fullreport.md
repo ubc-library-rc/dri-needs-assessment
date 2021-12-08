@@ -8,6 +8,7 @@ title: Full Report
 * [Methods](#methods) 
 * [Results](#results)
 * [Discussion and Next Steps](#discussion-and-next-steps)
+* [Detailed graphs](#detailed-graphs)
 
 ## Background
 
@@ -83,13 +84,25 @@ For the purpose of this report, this section will feature the high-level finding
 
 One of the most striking findings from the survey was the discrepancy between the relatively small number of those that sought training or support, compared to the much larger numbers of those that would have liked training or support but didn’t know they were available (see Figure X. and X.)  Of particular note, is that this gap between those that sought training or support versus those that wanted it spans across nearly all of the 25 DRI elements and the respective portfolios and departments that serve these areas.   
 
-<img style="margin: -100px 0" alt="Need for support/training" src="graphs/overall_support-training.png">
+<br/>
+**Figure X**
+
+<img class="graph" style="width: 65%" alt="Need for support" src="graphs/overall_support.png">
+
+
+**Figure X**
+
+<img class="graph" style="width: 65%;" alt="Need for training" src="graphs/overall_training.png">
+
 
 ### Dispersion of Support and Training_
 
 Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X).  Furthermore, for those that did seek both support and training, many turned to sources outside of UBC for a variety of DRI areas.    
 
-<img style="margin: 20px 0" alt="Need for support/training" src="graphs/overall_where.png">
+<br/>
+**Figure X**
+
+<img class="graph" style="width: 80%" alt="Need for support/training" src="graphs/overall_where.png">
 
 ### Training Within UBC
 
@@ -132,3 +145,14 @@ As a response to the upcoming Tri-Agency requirement of an RDM Institutional Str
 
 ### Leveraging National Partnerships
 In line with a future state of centralized DRI services within UBC, part of this dialogue should consider what types of training UBC is interested in and capable of providing internally, both currently and in an idea future state, and what training can be properly accommodated outside of UBC.  While there are existing partnerships between UBC and Alliance Portage / Alliance Compute Canada, a potential area of inquiry would be to investigate how DRAC training could more formally be situated as a supplement to the training offered within UBC, both in terms of content and how all training opportunities are promoted and discovered among the UBC research community.  Combining these efforts would broaden the availability of live (in-person and virtual) training, as well as asynchronous training and modules, providing more comprehensive and timely training opportunities for the UBC research community.  This approach would also facilitate UBC in aligning with the national DRI landscape, foster stronger relationships between UBC and the DRAC community, as well as maximize resources on a national scale.   
+
+## Detailed graphs
+<br/>
+**Figure X**
+
+<img class="graph" alt="Need for support by topic" src="graphs/detailed_support.png">
+
+**Figure X**
+
+<img class="graph" alt="Need for training by topic" src="graphs/detailed_training.png">
+
