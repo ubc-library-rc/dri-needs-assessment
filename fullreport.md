@@ -32,7 +32,7 @@ RDM and DRI have considerable overlap; and supporting each spans multiple depart
 
 In order to ensure that the needs of our research community are being met in an era of rapid development and change, the UBC DRI Needs Assessment sought to investigate the training and support needs of researchers in relation to DRI.  These findings, used in conjunction with the researcher feedback being solicited by the UBC RDM Steering Committee, can help identifying gaps and vacancies in our institutional service offerings, and be used to inform the future desired state of DRI services at UBC. 
 
-## Methods
+## Methods <a href="#top" class="back-to-top-link">🔝</a>
 
 This assessment was a joint effort between UBC Advanced Research Computing (ARC) and UBC Library.  The assessment consisted of two elements -  a survey and three follow-up focus groups. 
 
@@ -168,6 +168,6 @@ In line with a future state of centralized DRI services within UBC, part of this
 
 <img class="graph" alt="Need for training by topic" src="graphs/detailed_training.png">
 
-<a href="#top" class="back-to-top-link">🔝</a>
+
 
 
