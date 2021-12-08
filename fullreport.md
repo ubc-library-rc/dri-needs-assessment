@@ -10,6 +10,8 @@ title: Full Report
 * [Discussion and Next Steps](#discussion-and-next-steps)
 * [Detailed graphs](#detailed-graphs)
 
+<div id = "top-wrapper"><a href="#top" class="back-to-top-link">🔝</a></div>
+
 ## Background
 
 Digital Research Infrastructure (DRI) refers to a suite of services that enables the collection, processing, dissemination and disposition of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one's research data. 
