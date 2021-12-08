@@ -3,101 +3,108 @@
 
 @import "minima";
 
-.wrapper {
-  max-width: calc(1000px - (30px * 2));
-}
+/* default width of content is 800px. Upped to 100px */
+  .wrapper {
+    max-width: calc(1000px - (30px * 2));
+  }
 
-.summary {
-  color: #002145;
-}
+/* generic styling */
+  h3 {
+    width: 100%;
+    display: inline-block;
+  }
+  a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+  }
 
-.reportLink {
-  width: 30%;
-  margin: 1%;
-  float: left;
-  text-align: center;
-  padding: 20px 0;
-  color: #002145;
-  border: solid 2px #327fa8;
-  background-color: #fff;
-  font-size: 100%;
-}
+/* back to top button used on full report */
+  #top-wrapper {
+    position: relative;
+  }
+  .back-to-top-link {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 0.25rem;
+    position: fixed;
+    margin-left: 950px;
+  }
+  .back-to-top-link:hover {
+    background-color: #97D4E9;
+  }
 
-.reportLink:hover {
-  background-color: #002145;
-  color: #ffffff;
-}
+/* highlight executive summary on landing page */
+  .summary {
+    color: #002145;
+  }
 
-.fullreportLink {
-  clear: right;
-}
+/* style links on landing page for reports */
+  .reportLink {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    color: #002145;
+    border: solid 2px #327fa8;
+    background-color: #fff;
+    font-size: 100%;
+  }
+  .reportLink:hover {
+    background-color: #002145;
+    color: #ffffff;
+  }
+  .fullreportLink {
+    clear: right;
+  }
 
-h3 {
-  width: 100%;
-  display: inline-block;
-}
+/* call out boxes for recommendations */
+  .recommendation {
+    border: solid 2px #327fa8;
+    padding: 2%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #f0f6fa;
+  }
 
-.back-to-top-link {
-  display: inline-block;
-  font-size: 2rem;
-  line-height: 2rem;
-  text-align: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: #002145;
-  padding: 0.25rem;
-  color: #fff;
-}
+/* class for graphs he added to the report. The "position" and "top" settings float the graph up so the title is on about the same line as the "Figure X" title that introduces it. I add a new class instead of updating an existing one because I didn't want to interfere with other work, but our figure/graph classes could be simplified  */
+  .graph {
+    position: relative;
+    top: -40px;
+    margin: 0, 20px;
+    width: 85%
+  }
 
-.back-to-top-link:hover {
-  background-color: #fff;
-}
-
-a, a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-}
-
-.figure {
-  width: 23%;
-  height: 80px;
-  margin: 1%;
-  float: left;
-  text-align: center;
-  padding: 60px 0;
-  font-size: 24px;
-}
-
-.figure-main {
-  width: 60%;
-  margin: 1%;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 24px;
-}
-
-.figure-sub {
-  width: 80%;
-  margin: 1%;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 24px;
-}
-
-.recommendation {
-  border: solid 2px #327fa8;
-  padding: 2%;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  background: #f0f6fa;
-}
+/* not sure these are still being used (comment MVD 20211208) */
+  .figure {
+    width: 23%;
+    height: 80px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 24px;
+  }
+  .figure-main {
+    width: 60%;
+    margin: 1%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+  }
+  .figure-sub {
+    width: 80%;
+    margin: 1%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+  }
 
 
-/* Jeremy added the "graph" class for graphs he added to the report. The "position" and "top" settings float the graph up so the title is on about the same line as the "Figure X" title that introduces it. I add a new class instead of updating an existing one because I didn't want to interfere with other work, but our figure/graph classes could be simplified  */
 
-.graph {
-  position: relative;
-  top: -40px;
-  margin: 0, 20px;
-  width: 85%
-}
+
+
