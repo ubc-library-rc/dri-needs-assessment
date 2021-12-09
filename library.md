@@ -9,23 +9,29 @@ On the Vancouver campus, DRI activities in the realms of RDM, and tools for data
 ## Key Findings & Recommendations
 
 <div class="recommendation">
-  <p><b>Finding 1</b></p>
+ <b>Finding 1</b>
+<br>
+Many respondents were either unaware of the RDM supports and training available from the lirbary and frequently looked outside the library for RDM supports and training
+  
+  <br>
+  <br>
 
-  <p>Many respondents were either unaware of the RDM supports and training available from the lirbary and frequently looked outside the library for RDM supports and training.</p>
-
-  <p><b>Recommendation 1</b></p> 
-
-  <p>Why these supports and training are not on the radar of much of the research community warrants investigation into communication strategies and partnerships with units where researchers are seeking supports.</p>
+  <b>Recommendation 1</b> 
+<br>
+ Why these supports and training are not on the radar of much of the research community warrants investigation into communication strategies and partnerships with units where researchers are seeking supports
  </div>
 
 <div class="recommendation">
-  <p><b>Finding 2</b></p>
+<b>Finding 2</b>
+  <br>
+  UBC Library was frequently the least accessed unit for support across DRI supports and training.
   
-    <p>UBC Library was frequently the least accessed unit for support across DRI supports and training.</p>
+  <br>
+  <br>
 
-  <p><b>Recommendation 2</b></p>
-
-  <p>UBC Library provides graduate level training and faculty support across a range of DRI activities. At the same time, there is concern that the training provided by ARC is too advanced. There is particaulr opportunity to harmonize a continuity of training and support across a breadth of skill levels working more closely with ARC.</p>
+  <b>Recommendation 2</b>
+<br>
+UBC Library provides graduate level training and faculty support across a range of DRI activities. At the same time, there is concern that the training provided by ARC is too advanced. There is particaulr opportunity to harmonize a continuity of training and support across a breadth of skill levels working more closely with ARC.
   </div>
   
 ## Highlights
