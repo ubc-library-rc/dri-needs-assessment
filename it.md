@@ -12,33 +12,33 @@ As the Needs Assessment team does not have a representative from UBC IT, this pa
 <div class="recommendation">
   <b>Finding 1</b>
   <br>
-While UBC IT is a key player in servicing active data storage at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available
+While UBC IT is a key player in servicing active data storage at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available.
   
   <br>
   <br>
 
 <b>Recommendation 1</b>
   <br>
- As UBC ARC is also a leader in this area, coordinate services across these units to maximize efforts, resources, and discoverability of services
+ As UBC ARC is also a leader in this area, coordinate services across these units to maximize efforts, resources, and discoverability of services.
   </div>
 
 <div class="recommendation">
   <b>Finding 2</b>
   <br>
-While UBC IT also plays a strong role in servicing retention/deposition/preservation at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available
+While UBC IT also plays a strong role in servicing retention/deposition/preservation at UBC, this was a top area in which researchers wanted both training and support, but didn’t know they were available.
   
   <br>
   <br>
 
  <b>Recommendation 2</b>
   <br>
-  As UBC ARC and UBC Library are also leaders in these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services
+  As UBC ARC and UBC Library are also leaders in these areas, coordinate services across these units to maximize efforts, resources, and discoverability of services.
   </div>
 
 <div class="recommendation">
   <b>Finding 3</b>
   <br>
-It was noted in both the survey and focus groups that it is very challenging to find accurate and up-to-date guidance on the intersections of privacy, security, and compliance
+It was noted in both the survey and focus groups that it is very challenging to find accurate and up-to-date guidance on the intersections of privacy, security, and compliance.
   
   <br>
   <br>
