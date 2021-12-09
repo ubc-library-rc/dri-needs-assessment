@@ -60,7 +60,7 @@ The UBC IT portfolio is responsible for creating the policies and guidelines for
 <br>
 **Figure 1**
 
-<img class="graph" alt="Places support is sought" src="graphs/UBCIT_support_where.png">
+<img class="graph" alt="Places support is sought" src="graphs/UBC IT_support_where.png">
 
 ### DRI Training & UBC IT
 
@@ -71,6 +71,6 @@ The UBC IT portfolio is responsible for creating the policies and guidelines for
 <br>
 **Figure 2**
 
-<img class="graph" alt="Places support is sought" src="graphs/UBCIT_training_where.png">
+<img class="graph" alt="Places support is sought" src="graphs/UBC IT_training_where.png">
 
 
