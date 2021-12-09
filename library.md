@@ -11,14 +11,14 @@ On the Vancouver campus, DRI activities in the realms of RDM, and tools for data
 <div class="recommendation">
  <b>Finding 1</b>
 <br>
-Many respondents were either unaware of the RDM supports and training available from the lirbary and frequently looked outside the library for RDM supports and training
+Many respondents were either unaware of the RDM supports and training available from the lirbary and frequently looked outside the library for RDM supports and training.
   
   <br>
   <br>
 
   <b>Recommendation 1</b> 
 <br>
- Why these supports and training are not on the radar of much of the research community warrants investigation into communication strategies and partnerships with units where researchers are seeking supports
+ Why these supports and training are not on the radar of much of the research community warrants investigation into communication strategies and partnerships with units where researchers are seeking supports.
  </div>
 
 <div class="recommendation">
