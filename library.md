@@ -72,10 +72,8 @@ DRI activities depend on expertise and resources that span multiple departments 
 
 Despite the Library's efforts to promote its DRI-related services, many researchers remain unaware of them. Knowing where researchers seek out information related to DRI training and support is critical to increasing awareness and supporting stronger communication strategies. In focus groups, many researchers indicated they learn about DRI support from discipline specific communication channels. A review of communication strategies and complementary communication strategies by units supporting DRI activities on both campuses would enhance awareness of campus supports for DRI.
 
-**Round Up**
+## Next Steps
 
 UBC Library is a leader in many DRI services - specifically RDM, but also digital scholarship, GIS, and data analysis - and is in a strong position to support UBC researchers. Building effective communication strategies and collaborations depends on working relationships between employees, faculty, graduate students, and researchers. However, without executive support to provide guidance and coordination across units and departments any successes remain rooted in individual commitments and approaches. UBC Library stands to support a more robust, integrated DRI service offering if these efforts are provided the needed guidance, coordination, and funding.
-
-## Next Steps
 
 In line with main report, further information gathering is required to address many of the issues highlighted in this survey. Addressing communication challenges would benefit from richer data from participants on information gathering preferences, a key strength UBC Library could contribute to future collective efforts. UBC Library could also play a central role in formalizing a data collection strategy to inform future intra-institutional collaboration on DRI supports and training.
