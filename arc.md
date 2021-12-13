@@ -76,3 +76,16 @@ _Top 3 areas in which **researchers sought training from ARC** (Figure X for ful
 
 <img class="graph" alt="Places training is sought" src="graphs/ARC_training_where.png">
 
+## Discussion
+
+**Training Partnerships**
+
+UBC Library provides graduate level training and faculty support in DRI-related topics such as digital scholarship, GIS, RDM, and data analysis.  In addition to this training, Compute Canada offers a great deal of computational and HPC training offerings.  Noting that current introductory ARC training was identified as being too challenging for beginners, and that UBC researchers are seeking training both internally at UBC and externally from the institution, there is an opportunity to more closely collaborate with these two groups, as well as others, to build a more comprehensive and seamless trajectory in DRI training, beginning with basic skills and working up to advanced HPC competencies.   
+
+**Research Networks**
+
+As discussed in the focus groups, there is huge benefit in graduate students (both in similar disciplines and across disciplines) having a venue to build research networks as a way to foster peer-training and collaborative research endeavours.  In addition to partnering with other departments to offer more comprehensive training, there is also an opportunity to collaborate with UBC Graduate Studies to explore how we might leverage training initiatives to begin building a platform to encourage and support these networks.   
+**Communications** 
+
+Despite ARC’s best efforts to communicate its services to the UBC research community, many researchers that report wanting these services but remain unaware.  In focus groups, many people reported that the hear about DRI services from specific communications channels, as well as word-of-mouth from those in their department or research circles.  An interesting finding from the survey is the large number of respondents from Medicine and Health Sciences, and the Social Sciences and Humanities compared to other disciplines, and whether this is reflective of more effective communications to these communities.  A review of communication strategies and complementary communication strategies by units supporting DRI activities on both campuses would enhance awareness of institutional supports for DRI. 
+
