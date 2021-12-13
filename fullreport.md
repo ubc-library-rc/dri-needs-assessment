@@ -63,7 +63,7 @@ The survey began by asking demographic information about participants’ positio
 
 **Figure X.** 
 
-<img class="graph" alt="Respondent's position at UBC" src="graphs/overall_position.png">
+<img class="graph" alt="Respondent's position at UBC" src="graphs/overall_position.PNG">
 
 **Figure X.**
 
@@ -71,7 +71,7 @@ The survey began by asking demographic information about participants’ positio
 
 **Figure X.**
 
-<img class="graph" alt="Respondent's primary work location" src="graphs/overall_location.png">
+<img class="graph" alt="Respondent's primary work location" src="graphs/overall_location.PNG">
 
 
 ### Findings
