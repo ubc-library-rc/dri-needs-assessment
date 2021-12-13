@@ -1,7 +1,7 @@
 ---
 title: 'Graphs for DRI Needs Assessment report'
 author: 'Jeremy Buhler'
-date: 'Dec 7, 2021'
+date: 'Dec 10, 2021'
 output: html_document
 ---
 
@@ -51,6 +51,42 @@ responses <- responses %>%
 spam_removed <- anti_join(responses, spam, by="ResponseId" )
 ```
 
+## Create "discipline" variable that recodes "other" values into best match from survey options. ('x' value recoded to the group with the largest number of responses.)
+```{r}
+spam_removed <- spam_removed %>%
+  mutate(discipline = case_when(
+    Q6_8_TEXT == "Computer Science" ~ "Engineering and Technology",
+    Q6_8_TEXT == "Creative Technologies - Visual Art" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Mathematics" ~ "Physical Sciences",
+    Q6_8_TEXT == "Math" ~ "Physical Sciences",
+    Q6_8_TEXT == "Human Kinetics" ~ "Medicine and Health Sciences",
+    Q6_8_TEXT == "Education" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Law" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Social Work " ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "interdisciplinary environmental studies" ~ "Ecology and Environmental Sciences",
+    Q6_8_TEXT == "x" ~ "Medicine and Health Sciences",
+    Q6_8_TEXT == "Education" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Commerce" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Applied Science" ~ "Engineering and Technology",
+    Q6_8_TEXT == "Pharmaceutical Scs" ~ "Medicine and Health Sciences",
+    Q6_8_TEXT == "Architecture" ~ "Engineering and Technology",
+    Q6_8_TEXT == "Architecture " ~ "Engineering and Technology",
+    Q6_8_TEXT == "Music" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Education " ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Architecture" ~ "Engineering and Technology",
+    Q6_8_TEXT == "Business School" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Business" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "health and exercise sciences" ~ "Medicine and Health Sciences",
+    Q6_8_TEXT == "Business Administration" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "neuroscience (cognitive)" ~ "Medicine and Health Sciences",
+    Q6_8_TEXT == "Business School" ~ "Social Sciences and Humanities",
+    Q6_8_TEXT == "Architecture" ~ "Engineering and Technology",
+    Q6_8_TEXT == "statistical/data science" ~ "Physical Sciences",
+    TRUE ~ Q6
+  ))
+```
+
+
 ## Remove variables
 Remove variables that aren't required for the graphs:
 
@@ -61,7 +97,7 @@ Remove variables that aren't required for the graphs:
 
 ```{r}
 variables_removed <- spam_removed %>%
-  select(matches("^Q\\d")) %>%
+  select(matches("^Q\\d"),discipline) %>%
   select(-(one_of("Q29","Q31","Q32_1","Q32_2"))) %>%
   select_if(~!n_distinct(.) < 2) %>%
   select(-matches("TEXT"))
@@ -72,6 +108,7 @@ variables_removed <- spam_removed %>%
 ```{r}
 variables_removed <- rowid_to_column(variables_removed, var="id")
 ```
+
 
 ## Pivot from wide to long
 The export from Qualtrics has one row per respondent, with columns for each question and for each *option* in "select all that apply" questions. Graphing is easier if the data is normalized with each question on its own row. In this process we also split some questions into two variables. For example, a case where the "SupportWhere_Machine learning" variable has a value of "UBC IT" will look like this:
@@ -169,6 +206,46 @@ graph_data <- pivot3 %>%
   mutate(sort_include = if_else(str_starts(short_response,"I would have liked")|str_starts(short_response, "I sought additional"),1,0))
 ```
 
+# Demographics graphs
+```{r}
+
+demo_data <- pivot3 %>%
+  select(id, Q5, discipline, Q7) %>%
+  mutate(Q7 = str_remove(Q7,"..please specify.")) %>%
+  distinct()
+
+demo_data %>%
+    ggplot(
+    aes(y=fct_rev(fct_infreq(discipline))))+
+    geom_bar(fill="#4EB3D3") +
+    labs(y="",x="# of respondents", title="Research discipline")+
+    scale_fill_brewer(palette = "Blues") +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10, color="#606060"), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0))) 
+
+ggsave("graphs/overall_discipline.png", width=6, height=2.5, units="in")
+
+demo_data %>%
+    ggplot(
+    aes(y=fct_rev(fct_infreq(Q5))))+
+    geom_bar(fill="#4EB3D3") +
+    labs(y="",x="# of respondents", title="Position at UBC")+
+    scale_fill_brewer(palette = "Blues") +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10, color="#606060"), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0))) 
+
+ggsave("graphs/overall_position.png", width=6, height=2.5, units="in")
+
+demo_data %>%
+    ggplot(
+    aes(y=fct_rev(fct_infreq(Q7))))+
+    geom_bar(fill="#4EB3D3") +
+    labs(y="",x="# of respondents", title="Primary work location")+
+    scale_fill_brewer(palette = "Blues") +
+    theme_minimal() + theme(panel.grid.major.y = element_line(color = "white"), plot.subtitle=element_text(size=10, color="#606060"), plot.caption=element_text(face = "italic", color="#606060",margin=margin(15,0,0,0))) 
+  
+ggsave("graphs/overall_location.png", width=6, height=1.5, units="in")
+```
+
+ 
 # Overall "need for training/support" graph
 ```{r}
 for (i in type) {
