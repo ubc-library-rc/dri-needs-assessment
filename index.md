@@ -59,7 +59,7 @@ Coordinate services across UBC portfolios and departments that offer similar ser
   
   <b>Recommendation 3</b>
  <br>
- Coordinate across portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
+ Coordinate services across UBC portfolios and departments that provide DRI services to build a central portal for the easy discovery of services.
 </div>
 
 ## Reports
