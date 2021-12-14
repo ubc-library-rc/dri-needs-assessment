@@ -76,7 +76,7 @@ The survey began by asking demographic information about participants’ positio
 
 ### Findings
 
-For the purpose of this report, this section will feature the high-level findings from the full population of respondents.  For more granular findings, see the [unit specific reports](index.html/#unit-reports).   
+For the purpose of this report, this section will feature the high-level findings from the full population of respondents.  For more granular findings, see the [unit specific reports](index.html#unit-reports).   
 
 ### Awareness
 
