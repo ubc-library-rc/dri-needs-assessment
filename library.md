@@ -43,7 +43,7 @@ UBC Library provides graduate level training and faculty support across a range 
 3. Visualization: 14% of researchers who sought support went to UBC Library 
 
 <br/>
-**Figure 1**
+**Figure 3.1**
 
 <img class="graph" alt="Places support is sought" src="graphs/Library_support_where.png">
 
@@ -54,7 +54,7 @@ UBC Library provides graduate level training and faculty support across a range 
 3. Digital sustainability: 30% of researchers who sought training went to UBC Library 
 
 <br/>
-**Figure 2**
+**Figure 3.2**
 
 <img class="graph" alt="Places training is sought" src="graphs/Library_training_where.png">
   
