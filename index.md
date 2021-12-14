@@ -70,7 +70,7 @@ Coordinate services across UBC portfolios and departments that offer similar ser
 
 ### Unit Reports
 
-While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report.
+While many units on campus support the 25 areas of DRI queried, centrally ARC, UBC Library, and IT provision the majority of the infrastructure to support DRI. Because of this, we include three sub reports that situate the findings of the survey in the unique context of each of these units. These are intended to compliment the full report. It should be noted that the Needs Assessment team does not have a representative from UBC IT. As such, this particulary report should not be seen as representing the views of IT, but should rather be considered as food for thought for UBC Library and ARC and to potentially initiate discussions around cross-departmental collaboration.
 
 <a href = "arc.html"><button class = "reportLink">ARC</button></a>
 <a href = "library.html"><button class = "reportLink">Library</button></a>
