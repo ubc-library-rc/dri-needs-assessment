@@ -6,7 +6,7 @@ title: UBC Digital Research Infrastructure Report
 ## Executive Summary
 
 <div class = "summary">
-<p>Digital Research Infrastructure (DRI) refers to a suite of services that enables the collection, processing, dissemination and disposition, of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one’s research data.</p>
+<p>Digital Research Infrastructure (DRI) refers to a suite of services that enables the collection, processing, dissemination, and disposition of research data. This includes strategies for planning, organizing, storing, sharing, computing, and ultimately archiving or destroying one’s research data.</p>
 
 <p>From May 17th - June 12, 2021, UBC Advanced Research Computing (ARC) and the UBC Library from both Vancouver and Okanagan Campuses launched the DRI Needs Assessment Survey to investigate UBC researchers’ needs in 25 distinct areas relating to DRI (see full details of survey [insert link]). the survey received a total of 241 responses.  Following the survey, three focus groups were conducted with UBC researchers to gain additional insights.</p>
 
