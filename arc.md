@@ -83,3 +83,11 @@ As discussed in the focus groups, there is huge benefit in graduate students (bo
 
 Despite ARC’s best efforts to communicate its services to the UBC research community, many researchers report wanting these services but remaining unaware of them.  In focus groups, many people reported that they hear about DRI services from domain specific communication channels, as well as word-of-mouth from those in their department or research circles. An interesting finding from the survey is the large number of respondents from Medicine and Health Sciences, and the Social Sciences and Humanities compared to other disciplines, and whether this is reflective of more effective communications to these communities. A review of communication strategies and complementary communication strategies by units supporting DRI activities on both campuses would enhance awareness of institutional supports for DRI. 
 
+
+## Next Steps
+
+UBC ARC plays a prominent role in DRI services, from HPC and large data storage infrastructure, to data management and sensitive data support and training.  Building effective communication strategies and collaborations depends on working relationships between employees, faculty, graduate students, and researchers. However, without executive support to provide guidance and coordination across units and departments any successes remain rooted in individual commitments and approaches. UBC ARC stands to support a more robust, integrated DRI service offering if these efforts are provided the needed guidance, coordination, and funding.
+
+In line with main report, further information gathering is required to address many of the issues highlighted in this survey. Addressing communication challenges would benefit from richer data from participants on information gathering preferences, a key strength UBC ARC could contribute to future collective efforts. UBC ARC could also play a central role in formalizing a data collection strategy to inform future intra-institutional collaboration on DRI supports and training.
+
+
