@@ -38,9 +38,9 @@ UBC Library provides graduate level training and faculty support across a range 
 
 ### DRI Support & UBC Library
 
-1. Data management plan (DMP): 24% of researchers who sought support went to Library 
-2. Data Retention/deposit/preservation: 16% of researchers who sought support went to Library 
-3. Visualization: 14% of researchers who sought support went to Library 
+1. Data management plan (DMP): 24% of researchers who sought support went to UBC Library 
+2. Data Retention/deposit/preservation: 16% of researchers who sought support went to UBC Library 
+3. Visualization: 14% of researchers who sought support went to UBC Library 
 
 <br/>
 **Figure 1**
@@ -49,9 +49,9 @@ UBC Library provides graduate level training and faculty support across a range 
 
 ### DRI Training & UBC Library 
 
-1. Data Retention/deposit/preservation: 29% of researchers who sought training went to Library 
-2. Data management plan (DMP): 20% of researchers who sought training went to Library 
-3. Digital sustainability: 30% of researchers who sought training went to Library 
+1. Data Retention/deposit/preservation: 29% of researchers who sought training went to UBC Library 
+2. Data management plan (DMP): 20% of researchers who sought training went to UBC Library 
+3. Digital sustainability: 30% of researchers who sought training went to UBC Library 
 
 <br/>
 **Figure 2**
