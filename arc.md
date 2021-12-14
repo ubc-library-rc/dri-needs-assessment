@@ -55,7 +55,7 @@ Identify partners within UBC to determine training and support that is feasible 
 2. Active Data Storage: 21% of researchers who sought support went to ARC
 3. Data Retention/Deposit/Preservation: 23% of researchers who sought support went to ARC
 
-**Figure 1**
+**Figure 2.1**
 
 <img class="graph" alt="Places support is sought" src="graphs/ARC_support_where.png">
 
@@ -65,7 +65,7 @@ Identify partners within UBC to determine training and support that is feasible 
 2. Coding/Programming:  15% of researches who sought training went to ARC
 3. Cloud Computing:  23% of researches who sought training went to ARC
 
-**Figure 2**
+**Figure 2.2**
 
 <img class="graph" alt="Places training is sought" src="graphs/ARC_training_where.png">
 
