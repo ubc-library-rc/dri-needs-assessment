@@ -40,13 +40,13 @@ This assessment was a joint effort between UBC Advanced Research Computing (ARC)
 
 ### Survey
 
-The UBC DRI Needs Assessment survey ran from May 17th - June 12, 2021.  The survey queried UBC researchers' training and support needs in 25 distinct areas relating to data, software, and computational infrastructure (see Appendix A. for full survey).   The survey was sent to faculty and department contacts for distribution, as well as through various newsletters.   A total of 241 responses were received. 
+The UBC DRI Needs Assessment survey ran from May 17th - June 12, 2021.  The survey queried UBC researchers' training and support needs in 25 distinct areas relating to data, software, and computational infrastructure (see link for full survey).   The survey was sent to faculty and department contacts for distribution, as well as through various newsletters.   A total of 241 responses were received. 
 
 For the purpose of the survey, training and support were looked at as distinct services, with training being defined as “single workshops, workshop series, online modules/videos, and formal courses”, and support being defined as “web resources, consultations, advising, troubleshooting, and recommendations”.   After entering demographic information, participants were presented with a list of 25 areas of DRI, and were asked to select all those that were relevant to their research.   Following this, each participant was asked to complete questions for each DRI element that was relevant to their research, including whether they needed or wanted training/support, if they sought training/support, and if so, where they went and how satisfied they were with the training/support received.  Participants were also given the option to submit free-text comments at the end of the survey. 
 
 ### Focus Groups
 
-One of the final survey questions asked whether participants would be willing to be contacted for follow-up focus groups.  Of the 23 respondents who indicated they were willing to be contacted, we were able to schedule three focus groups with a total of 11 researchers.  The focus groups were semi-structured, containing scripted questions but also allowing spontaneous follow-up questions and discussion (see Appendix B. for question script).  For each session, two members from the assessment team were present, with one person leading the discussion and the other taking notes.  Sessions were conducted via Zoom, and were recorded as well as transcribed using Zoom’s built-in software.  Videos were deleted after transcripts were exported to a secure storage platform shared with team members, and all transcripts were stripped of identifiers.  While transcripts weren’t formally coded or analyzed, excerpts of relevance were extracted and examined. 
+One of the final survey questions asked whether participants would be willing to be contacted for follow-up focus groups.  Of the 23 respondents who indicated they were willing to be contacted, we were able to schedule three focus groups with a total of 11 researchers.  The focus groups were semi-structured, containing scripted questions but also allowing spontaneous follow-up questions and discussion (see link for question script).  For each session, two members from the assessment team were present, with one person leading the discussion and the other taking notes.  Sessions were conducted via Zoom, and were recorded as well as transcribed using Zoom’s built-in software.  Videos were deleted after transcripts were exported to a secure storage platform shared with team members, and all transcripts were stripped of identifiers.  While transcripts weren’t formally coded or analyzed, excerpts of relevance were extracted and examined. 
 
 ### Limitations
 
@@ -58,18 +58,18 @@ The DRI Needs Assessment Survey was designed to scope out awareness and need for
 
 ### Demographics
 
-The survey began by asking demographic information about participants’ position at UBC, their discipline, as well as their primary work location at UBC.   While Professors made up the largest group of respondents, there was strong representation across all groups except Instructors and Postdoctoral Fellows (see Figure X.).  In terms of research discipline, Medicine and Health Sciences, as well as the Social Sciences and Humanities made up a disproportionate number of respondents (see Figure X.).  The primary work location of respondents was largely the Vancouver campus, although there was significant representation from both the Okanagan campus as well as affiliated hospitals or institutions (see Figure X.) 
+The survey began by asking demographic information about participants’ position at UBC, their discipline, as well as their primary work location at UBC.   While Professors made up the largest group of respondents, there was strong representation across all groups except Instructors and Postdoctoral Fellows (see Figure 1.1).  In terms of research discipline, Medicine and Health Sciences, as well as the Social Sciences and Humanities made up a disproportionate number of respondents (see Figure 1.2).  The primary work location of respondents was largely the Vancouver campus, although there was significant representation from both the Okanagan campus as well as affiliated hospitals or institutions (see Figure 1.3) 
 
 
-**Figure X.** 
+**Figure 1.1** 
 
 <img class="graph" alt="Respondent's position at UBC" src="graphs/overall_position.PNG">
 
-**Figure X.**
+**Figure 1.2**
 
 <img class="graph" alt="Respondent's research discipline" src="graphs/overall_discipline.png">
 
-**Figure X.**
+**Figure 1.3**
 
 <img class="graph" alt="Respondent's primary work location" src="graphs/overall_location.PNG">
 
@@ -80,33 +80,33 @@ For the purpose of this report, this section will feature the high-level finding
 
 ### Awareness
 
-One of the most striking findings from the survey was the discrepancy between the relatively small number of those that sought training or support, compared to the much larger numbers of those that would have liked training or support but didn’t know they were available (see Figure X. and X.)  Of particular note, is that this gap between those that sought training or support versus those that wanted it spans across nearly all of the 25 DRI elements and the respective portfolios and departments that serve these areas.   
+One of the most striking findings from the survey was the discrepancy between the relatively small number of those that sought training or support, compared to the much larger numbers of those that would have liked training or support but didn’t know they were available (see Figure 1.4 and 1.5)  Of particular note, is that this gap between those that sought training or support versus those that wanted it spans across nearly all of the 25 DRI elements and the respective portfolios and departments that serve these areas.   
 
 <br/>
-**Figure X**
+**Figure 1.4**
 
 <img class="graph graphSmall" alt="Need for support" src="graphs/overall_support.png">
 
 
-**Figure X**
+**Figure 1.5**
 
 <img class="graph graphSmall" alt="Need for training" src="graphs/overall_training.png">
 
 
 ### Dispersion of Support and Training
 
-Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures X and X).  Furthermore, for those that did seek both support and training, many turned to sources outside of UBC for a variety of DRI areas.    
+Another notable finding is that of the respondents that sought training or support, there was no single portfolio or department that unanimously served a particular area, but rather, all 25 areas of DRI were served by several different units (see Figures 1.6).  Furthermore, for those that did seek both support and training, many turned to sources outside of UBC for a variety of DRI areas.    
 
 <br/>
-**Figure X**
+**Figure 1.6**
 
 <img class="graph" alt="Need for support/training" src="graphs/overall_where.png">
 
 ### Training Within UBC
 
-As mentioned above, a large number of respondents indicated that they sought training outside of UBC.  However, one of the common themes across the focus groups was the desire for more training to be offered within UBC (see Figure X.).  As noted in these quotes, a big motivation for wanting internal training is that this encourages the grows of research communities and networks, for both faculty as well as graduate researchers.   
+As mentioned above, a large number of respondents indicated that they sought training outside of UBC.  However, one of the common themes across the focus groups was the desire for more training to be offered within UBC (see Figure 1.7).  As noted in these quotes, a big motivation for wanting internal training is that this encourages the grows of research communities and networks, for both faculty as well as graduate researchers.   
 
-Figure X.  Focus Group Quotes Regarding Internal Training at UBC.  
+**Figure 1.7.  Focus Group Quotes Regarding Internal Training at UBC.  **
 
 > “If [training] can occur here, you build up this kind of community of practice... and that support can help, and it gives people the opportunity to talk to others about what they're trying to [do and what] they're having trouble with.”
 
@@ -120,7 +120,7 @@ Figure X.  Focus Group Quotes Regarding Internal Training at UBC.
 
 In addition to the indicated desire for localized training, focus group participants also indicated that having training offered regularly throughout the year would be beneficial, as graduate students arrive throughout the year.  In this same line of discussion, participants indicated that asynchronous or online training would be of value, as it would not only accommodate those who cannot make live training sessions, but is a beneficial supplement to live training.   
 
-Figure X. Focus Group Quotes Regarding the Frequency of Training Offerings  
+**Figure 1.8.  Focus Group Quotes Regarding the Frequency of Training Offerings**  
 
 > “It's easy when students all come in September, because we seem to be geared up in that time on this campus to put people through [training].  But when they show      up in May, they've missed much [of the training offered], so I think options that are online [would be helpful].”
 
@@ -146,11 +146,11 @@ In line with a future state of centralized DRI services within UBC, part of this
 
 ## Detailed graphs
 <br/>
-**Figure X**
+**Figure 1.9**
 
 <img class="graph" alt="Need for support by topic" src="graphs/detailed_support.png">
 
-**Figure X**
+**Figure 1.10**
 
 <img class="graph" alt="Need for training by topic" src="graphs/detailed_training.png">
 
