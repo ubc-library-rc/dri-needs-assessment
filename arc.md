@@ -77,7 +77,7 @@ UBC Library provides graduate level training and faculty support in DRI-related 
 
 **Research Networks**
 
-As discussed in the focus groups, there is huge benefit in graduate students (both in similar disciplines and across disciplines) having a venue to build research networks as a way to foster peer-training and collaborative research endeavours.  In addition to partnering with other departments to offer more comprehensive training, there is also an opportunity to collaborate with UBC Graduate Studies to explore how we might leverage training initiatives to begin building a platform to encourage and support these networks. 
+As discussed in the focus groups, there is huge benefit in graduate students (both in similar disciplines and across disciplines) having a venue to build research networks as a way to foster peer-training and collaborative research endeavours.  In addition to partnering with other departments to offer more comprehensive training, there is also an opportunity to collaborate with UBC Graduate Studies on both campuses, as well as UBC Postdoctoral Association, to explore how we might leverage training initiatives to begin building a platform to encourage and support these networks. 
 
 **Communications** 
 
