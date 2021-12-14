@@ -46,7 +46,7 @@ title: Digital Research Infrastructure Report
 
  <b>Recommendation 2</b>
  <br>
-Coordinate services with portfolios and departments that offer similar services to maximize efforts and reduce duplication.
+Coordinate services across UBC portfolios and departments that offer similar services, as well as with national DRI service provicers, to maximize efforts and reduce duplication.
 </div>
 
 <div class="recommendation">
