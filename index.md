@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Digital Research Infrastructure Report
+title: UBC Digital Research Infrastructure Report
 ---
 
 ## Executive Summary
