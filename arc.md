@@ -69,6 +69,15 @@ While ARC is a key player in servicing active data storage and data retention/de
 
 <img class="graph" alt="Places training is sought" src="graphs/ARC_training_where.png">
 
+**Figure 2.3.  Survey Quotes Regarding ARC Training**
+
+> \“Sometimes the ARC training is very technical and unapproachable for students new to stats and HPC.\”
+
+> \“I attended some intro sessions last summer, but it was still too big of a jump from using a personal desktop to Sockeye or Compute Canada resources.\”
+
+> \“Please make more comprehensive resources for beginners working with the ARC Sockeye cluster!\”
+
+
 ## Discussion
 
 **Training Partnerships**
