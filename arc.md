@@ -79,6 +79,7 @@ While ARC is a key player in servicing active data storage and data retention/de
 
 > “Please make more comprehensive resources for beginners working with the ARC Sockeye cluster!”
 
+<br>
 
 ## Discussion
 
