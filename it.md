@@ -56,6 +56,8 @@ The UBC IT portfolio is responsible for creating the policies and guidelines for
 2. Active data storage: 29% of researchers who sought support went to UBC IT, 
 3. Security: 25% of researchers who sought support went to UBC IT. 
 
+<br>
+
 **Figure 4.1**
 
 <img class="graph" alt="Places support is sought" src="graphs/UBC IT_support_where.png">
@@ -65,6 +67,8 @@ The UBC IT portfolio is responsible for creating the policies and guidelines for
 1. Security: 42% of researchers who sought training went to UBC IT. 
 2. Hardware purchasing: 42% of researchers who sought training went to UBC IT. 
 3. Privacy: 21% of researchers who sought training went to UBC IT. 
+
+<br>
 
 **Figure 4.2**
 
