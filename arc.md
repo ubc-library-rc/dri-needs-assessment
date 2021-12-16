@@ -57,6 +57,8 @@ While ARC is a key player in servicing active data storage and data retention/de
 2. Active Data Storage: 21% of researchers who sought support went to ARC
 3. Data Retention/Deposit/Preservation: 23% of researchers who sought support went to ARC
 
+<br>
+
 **Figure 2.1**
 
 <img class="graph" alt="Places support is sought" src="graphs/ARC_support_where.png">
@@ -66,6 +68,8 @@ While ARC is a key player in servicing active data storage and data retention/de
 1. High-Performance Computing: 35% of researchers who sought training went to ARC
 2. Coding/Programming:  15% of researches who sought training went to ARC
 3. Cloud Computing:  23% of researches who sought training went to ARC
+
+<br>
 
 **Figure 2.2**
 
