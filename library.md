@@ -6,6 +6,8 @@ With 13 branches spanning UBC Vancouver, Vancouver General Hospital, and UBC Oka
 
 On the Vancouver campus, DRI activities in the realms of RDM, and tools for data visualization, statistical analysis, geospatial inquiries, and text analysis are supported by the Research Commons. On the Okanagan campus, the Centre for Scholarly Communication brings together expertise from the Library, Research Computing, and the Office of Research Services as a single portal to facilitate researcher access to training and support across the full scope of DRI activities queried in the DRI Needs Assessment survey.
 
+<div id = "top-wrapper"><a href="#top" class="back-to-top-link">🔝</a></div>
+
 ## Key Findings & Recommendations
 
 <div class="recommendation">
