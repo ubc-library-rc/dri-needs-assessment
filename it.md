@@ -6,6 +6,8 @@ Through its provisioning and licencing of hardware and software to support all U
 
 As the Needs Assessment team does not have a representative from UBC IT, this page should not be seen as representing the views of UBC IT, but should rather be considered as food for thought for UBC Library and ARC and to potentially initiate discussions around cross-departmental collaboration. As such it is also limited to key findings, recommendations, and survey highlights.
 
+<div id = "top-wrapper"><a href="#top" class="back-to-top-link">🔝</a></div>
+
 ### Key Findings & Recommendations
 
 <div class="recommendation">
